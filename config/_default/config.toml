@@ -18,3 +18,8 @@ disqusShortname = "hugo-theme-stack"
 pagerSize = 5
 
 enableRobotsTXT = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+  date = ["date", "publishDate", ":default"]
+  timezone = "Asia/Hong_Kong"
