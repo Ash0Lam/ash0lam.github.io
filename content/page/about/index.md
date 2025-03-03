@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2024-03-03
+date: 2025-03-03
 layout: "page"
 menu:
     main:
@@ -8,14 +8,29 @@ menu:
         params:
             icon: user
 ---
-你好，我是 Ash 👋！這裡是我的個人網站 **Omakase by Ash**。
+# 👋 Hi, I'm Ash!  
+Welcome to **Omakase by Ash**, my personal space where I share what i have done.
 
-🔥 **我的興趣**
-- 喜歡 **探索 AI & 機械學習**
-- 偶爾畫畫 🎨，偶爾寫 Code 💻
-- 愛吃 **吞拿魚壽司** 🍣
+## 🔥 Interests  
+- Passionate about **AI & Machine Learning**  
+- Enjoy **digital art & creative projects** 🎨  
+- Occasionally experiment with **coding & automation** 💻  
+- A sushi lover, especially **tuna sashimi** 🍣  
 
-📌 **我的專案**
-- **FYP：機械人 + AI 視覺分析**
-- **使用 Hugo & Netlify 建立這個網站**
-- **開源 AI 工具整合（GitHub）**
+## 📌 My Projects  
+- **Final Year Project (FYP)**: AI-powered robotics with **vision analysis & automation**  
+- **Building this website** using **Hugo & Netlify**  
+- **Open-source AI tools integration** (on [GitHub](https://github.com/ash0lam))  
+
+## 🎯 Skills & Experience  
+- **AI-assisted development**: Used AI models like **ChatGPT, Claude** to brainstorm solutions & refine code  
+- **Backend & API integration**: Built **Flask-based chatbot backend** with **WebSocket for real-time AI interaction**  
+- **Cloud AI tools**: Experimented with **Azure AI, Whisper, OpenAI API** for speech & image processing  
+- **IT & Data Center Operations**: Worked on **Smart Hands services, cable management, hardware installations**  
+
+## 🌐 Get in Touch  
+Want to collaborate or chat? Feel free to connect with me:  
+📧 Email: **[ash_Work@outlook.com](mailto:ash_Work@outlook.com)**  
+🐱 GitHub: [github.com/ash0lam](https://github.com/ash0lam)  
+
+---
