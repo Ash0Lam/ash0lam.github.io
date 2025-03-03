@@ -100,12 +100,13 @@ While developing this project, I encountered a few challenges:
 ## **Conclusion**
 This project was a **fantastic learning experience** in full-stack web development. It allowed me to apply my knowledge of **Flask, databases, security, and front-end design** to build a functional and scalable web application.
 
-## **Demonstration**
-{{< youtube "XMpf9LAPwas " >}}
+---
 
-This project has greatly improved my skills and confidence in **developing cloud-based web applications**. I'm excited to take these learnings into future projects and professional opportunities!
+## **Demonstration**
+{{< youtube "XMpf9LAPwas" >}}
 
 ---
+This project has greatly improved my skills and confidence in **developing cloud-based web applications**. I'm excited to take these learnings into future projects and professional opportunities!
 
 ## **Screenshots**
 Here are some screenshots of the project:
