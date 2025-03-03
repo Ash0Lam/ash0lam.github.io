@@ -22,4 +22,6 @@ enableRobotsTXT = true
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
   date = ["date", "publishDate", ":default"]
-  timezone = "Asia/Hong_Kong"
+
+[time]
+  location = "Asia/Hong_Kong"
