@@ -30,7 +30,7 @@ Welcome to **Omakase by Ash**, my personal space where I share what i have done.
 
 ## 🌐 Get in Touch  
 Want to collaborate or chat? Feel free to connect with me:  
-📧 Email: **[ash_Work@outlook.com](mailto:ash_Work@outlook.com)**  
+📧 Email: **[ash_Work@outlook.com](mailto:ash_work@outlook.com)**  
 🐱 GitHub: [github.com/ash0lam](https://github.com/ash0lam)  
 
 ---
