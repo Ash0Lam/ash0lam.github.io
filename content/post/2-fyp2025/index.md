@@ -115,8 +115,6 @@ The evolution from **Telegram-based interaction (November 2024)** to a **WebSock
 
 By shifting from **chat-based delayed control** to **real-time voice, vision, and motion-based AI interactions**, this project moves closer to creating a **fully autonomous, AI-driven companion robot**.
 
-🔗 **This article will continue to be updated as development progresses. Stay tuned!** 🚀  
-
 ---
 
 ## **🔗 Related Technologies**
