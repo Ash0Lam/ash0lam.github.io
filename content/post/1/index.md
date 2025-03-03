@@ -102,7 +102,7 @@ This project has greatly improved my skills and confidence in **developing cloud
 ## **Screenshots**
 Here are some screenshots of the project:
 
-![Login Page](A1n.jpg) ![Create Post](A3.jpg)  
+![Login Page](A1.jpg) ![Create Post](A3.jpg)  
 ![Post View1](A4.jpg) ![Post View2](A5.jpg)  
 
 > *All screenshots are taken from my project and demonstrate various features.*
