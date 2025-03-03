@@ -2,6 +2,16 @@
 title: Building a Database-Driven Forum in Python
 description: My Cloud Web Application Development Project in Semester 2
 date: 2024-04-27 14:53:00+0000
+tags: 
+    - Flask
+    - Python
+    - Web Development
+    - PostgreSQL
+    - Bootstrap
+    - Forum
+categories:
+    - School Project
+    - IT
 ---
 
 ## **Introduction**
