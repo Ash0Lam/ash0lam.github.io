@@ -100,10 +100,8 @@ While developing this project, I encountered a few challenges:
 ## **Conclusion**
 This project was a **fantastic learning experience** in full-stack web development. It allowed me to apply my knowledge of **Flask, databases, security, and front-end design** to build a functional and scalable web application.
 
-### **Future Plans:**
-✅ Deploy the project on **Heroku** or **AWS**.  
-✅ Enhance the **admin dashboard** for better post management.  
-✅ Implement **real-time notifications** for new comments or replies.  
+## **Demonstration**
+{{< youtube "XMpf9LAPwas " >}}
 
 This project has greatly improved my skills and confidence in **developing cloud-based web applications**. I'm excited to take these learnings into future projects and professional opportunities!
 
