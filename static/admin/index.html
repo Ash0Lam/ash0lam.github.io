@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/netlify-identity-widget@1.9.1/build/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  <script src="https://unpkg.com/netlify-cms@2.10.200/dist/netlify-cms.js"></script>
+</body>
+</html>
