@@ -33,8 +33,7 @@ This transition has **greatly improved** response time, system stability, and ex
 | **Feature** | **November 2024 (Telegram Bot Control)** | **March 2025 (WebSocket Real-Time Communication)** |
 |------------|-----------------------------------|-----------------------------------|
 | **Control Method** | Users controlled the robot via **Telegram chat commands** | Users interact via **Flask-based web interface or speech** |
-| **Response Time** | ~2-3 seconds (dependent on Telegram API delays) | **<1 second** (real-time WebSocket processing) |
-| **Speech Processing** | Whisper AI for STT, Azure Speech Services for TTS | Enhanced **noise filtering & latency reduction** |
+| **Speech Processing** | Whisper AI for STT, Azure Speech Services for TTS | Whisper AI for STT, Azure Speech Services for TTS |
 | **AI Chatbot** | GPT-3.5 via OpenAI API for simple conversations | **LangChain-based chatbot** with **better context retention** |
 | **Video Streaming** | Not available | **Real-time WebSocket video transmission from robot to PC** |
 | **Motion Control** | Simple Telegram commands for pre-set movements | WebSocket-controlled **adaptive gesture interaction** |
@@ -47,7 +46,7 @@ This transition has **greatly improved** response time, system stability, and ex
 - Users could **send commands** via **Telegram**, and the robot would respond.
 - **Predefined movement commands** (e.g., `/wave`, `/move_forward`).
 - AI chatbot responses powered by **GPT-3.5 via OpenAI API**.
-- **Limitations:** **Delayed response times**, limited interaction capabilities, **no real-time vision processing**.
+- **Limitations:** limited interaction capabilities, **no real-time vision processing**.
 {{< youtube "5yfJXgtYdSA" >}}
 
 
@@ -59,7 +58,7 @@ This transition has **greatly improved** response time, system stability, and ex
   - **Receive real-time responses** from the AI chatbot.
   - **Control the robot’s movements dynamically**.
   - **Stream live video from the robot’s camera** for vision-based interactions.
-- **Improvements:** **Lower latency (<1 second)**, **better motion control**, **real-time vision processing**.
+- **Improvements:** **better motion control**, **real-time vision processing**.
 {{< youtube "lH_ZV7MhqK0" >}}
 {{< youtube "0d2QBd-BcjE" >}}
 ---
@@ -80,17 +79,6 @@ This transition has **greatly improved** response time, system stability, and ex
 | **Video Processing** | Not available | WebSocket-based real-time streaming |
 | **Motion Control** | Predefined commands via Telegram | Dynamic, adaptive motion execution |
 | **Cloud Integration** | Fully cloud-reliant (OpenAI, Telegram) | Shift towards **local AI processing** |
-
----
-
-## **📊 Key Metrics & Performance Improvements**
-| **Feature** | **November 2024 (Telegram Bot)** | **March 2025 (WebSocket System)** |
-|------------|----------------------------|----------------------------|
-| **Latency** | ~2-3 seconds | **<1 second** |
-| **Speech Recognition Accuracy** | 92% | **Improved contextual accuracy** |
-| **AI Chatbot Response Time** | 1.5 sec per query | **<1 sec per response** |
-| **Motion Control Efficiency** | 70% accuracy (due to command delay) | **97% accuracy (real-time processing)** |
-| **Vision Processing** | Not available | **Enabled real-time object recognition** |
 
 ---
 
