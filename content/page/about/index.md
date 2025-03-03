@@ -46,7 +46,6 @@ Although my main focus is technology, my **pastry background** has influenced th
 ✔ **Creative mindset** – Balancing structured execution with creative solutions  
 ✔ **Process optimization** – Streamlining workflows for better efficiency  
 
-(🔗 *Optionally, link to a "Creative Works" page to showcase casual projects*)  
 
 ## 🌐 Get in Touch  
 📧 Email: **[ash_work@outlook.com](mailto:ash_work@outlook.com)**  

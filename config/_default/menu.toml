@@ -7,18 +7,26 @@
 #icon = "home"
 #newtab = true
 
-#[[social]]
-#identifier = "github"
-#name = "GitHub"
-#url = "https://github.com/Ash0Lam"
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto:ash_work@outlook.com"
 
-#[social.params]
-#icon = "brand-github"
+[social.params]
+icon = "mail"
 
-#[[social]]
-#identifier = "linkedin"
-#name = "Linkedin"
-#url = "https://www.linkedin.com/in/ash0lam/"
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/Ash0Lam"
 
-#[social.params]
-#icon = "brand-linkedin"
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/ash0lam/"
+
+[social.params]
+icon = "brand-linkedin"
