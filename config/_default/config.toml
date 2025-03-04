@@ -4,14 +4,10 @@ languageCode = "en-us"
 title = "Omakase by Ash"
 
 # Theme i18n support
-# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
 defaultContentLanguage = "en"
-
-# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
-# This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage = false
 
-# Change it to your Disqus shortname before using
+# Disqus 設定
 disqusShortname = "hugo-theme-stack"
 
 [pagination]
@@ -27,13 +23,11 @@ enableRobotsTXT = true
   location = "Asia/Hong_Kong"
 
 [markup]
-  [markup.date]
-    format = "Jan 02, 2006 15:04 MST"
-
-[params]
-  showReadingTime = false
-
-  [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe = true  # ✅ 允許 Hugo 解析 <iframe> 這類 HTML
+  [markup.highlight]
+    style = "dracula"  # ✅ 選擇語法高亮的風格
+
+[params]
+  showReadingTime = false  # ✅ 取消 "X-minute read"
