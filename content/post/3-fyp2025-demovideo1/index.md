@@ -1,7 +1,7 @@
 ---
 title: "[FYP] AI Robot Demo Showcase - Interactive Control & Speech Recognition"
 description: "Demonstrating AI interactive robot capabilities through Flask control, voice commands, and vision analysis."
-date: 2025-03-04 00:00:00+0000
+date: 2025-03-04 13:00:00+0800
 image: cover.jpg
 tags: 
     - AI

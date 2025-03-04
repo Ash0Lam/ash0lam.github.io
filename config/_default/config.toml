@@ -20,7 +20,8 @@ enableRobotsTXT = true
   date = ["date", "publishDate", ":default"]
 
 [time]
-  location = "Asia/Hong_Kong"
+ timeZone = "Asia/Hong_Kong"
+
 
 [markup]
   [markup.goldmark]
