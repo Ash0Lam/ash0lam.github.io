@@ -38,10 +38,9 @@ This section demonstrates how the **Flask Web Interface** is used to control the
 - Test **WebSocket real-time communication** with minimal delay
 
 📹 **Demo Video**:
+{{< video "https://drive.google.com/file/d/1srNafCRfF6LYFfBGFZVh1B1bZ-5uqomN/preview" >}}
 
-<iframe src="https://drive.google.com/file/d/1srNafCRfF6LYFfBGFZVh1B1bZ-5uqomN/preview" width="640" height="480"></iframe>
-
-<iframe src="https://drive.google.com/file/d/1wbi7aINLB2lZS_UJs8snNqMI1oWNAZRS/preview" width="640" height="480"></iframe>
+{{< video "https://drive.google.com/file/d/1wbi7aINLB2lZS_UJs8snNqMI1oWNAZRS/preview" >}}
 
 
 ---
@@ -67,9 +66,7 @@ This section tests the **voice recognition and AI-powered command execution** ca
 - **Evaluate execution smoothness and response time**
 
 📹 **Demo Video**:
-
-<iframe src="https://drive.google.com/file/d/1T7k9IoVpIKucgp1NPLeaQBB6ManbqFue/preview" width="640" height="480"></iframe>
-
+{{< video "https://drive.google.com/file/d/1T7k9IoVpIKucgp1NPLeaQBB6ManbqFue/preview" >}}
 
 ---
 
@@ -81,14 +78,13 @@ This section tests the **voice recognition and AI-powered command execution** ca
 
 📹 **Demo Video (Angle 1)**:
 
-<iframe src="https://drive.google.com/file/d/1zbT6DXdlr9vfMXRQPZ12_4pcIXEhmBB0/preview" width="640" height="480"></iframe>
+{{< video "https://drive.google.com/file/d/1zbT6DXdlr9vfMXRQPZ12_4pcIXEhmBB0/preview" >}}
 
 
 
 📹 **Demo Video (Angle 2)**:
 
-<iframe src="https://drive.google.com/file/d/1QTvwJpWOKz8EfJfQ_K8IO7aQX7OUZtU-/preview" width="640" height="480"></iframe>
-
+{{< video "https://drive.google.com/file/d/1QTvwJpWOKz8EfJfQ_K8IO7aQX7OUZtU-/preview" >}}
 
 
 ---
@@ -101,8 +97,7 @@ This section tests the **voice recognition and AI-powered command execution** ca
 
 📹 **Demo Video (Angle 1)**:
 
-<iframe src="https://drive.google.com/file/d/13qS0KVDj_YZQYkLoG64sZzTlaw4apTh_/preview" width="640" height="480"></iframe>
-
+{{< video "https://drive.google.com/file/d/13qS0KVDj_YZQYkLoG64sZzTlaw4apTh_/preview" >}}
 
 ---
 
@@ -114,7 +109,7 @@ This section tests the **voice recognition and AI-powered command execution** ca
 
 📹 **Demo Video (Angle 1)**:
 
-<iframe src="https://drive.google.com/file/d/1IK4OHVocXW5KS7Rq75AnAInVFK54jDLu/preview" width="640" height="480"></iframe>
+{{< video "https://drive.google.com/file/d/1IK4OHVocXW5KS7Rq75AnAInVFK54jDLu/preview" >}}
 
 ---
 
@@ -129,7 +124,7 @@ This section tests how the robot **analyzes visual data through its camera**, re
 
 📹 **Demo Video (Angle 1)**:
 
-<iframe src="https://drive.google.com/file/d/1UNCcR0X4szDm8p_6jJ70HOB3JlH6ndXR/preview" width="640" height="480"></iframe>
+{{< video "https://drive.google.com/file/d/1UNCcR0X4szDm8p_6jJ70HOB3JlH6ndXR/preview" >}}
 
 
 ---
@@ -141,8 +136,7 @@ This section tests how the robot **analyzes visual data through its camera**, re
 
 📹 **Demo Video**:
 
-<iframe src="https://drive.google.com/file/d/10z-03NTF8952_y9WjtHo5NDfQyNYllvu/preview" width="640" height="480"></iframe>
-
+{{< video "https://drive.google.com/file/d/10z-03NTF8952_y9WjtHo5NDfQyNYllvu/preview" >}}
 
 
 ---
