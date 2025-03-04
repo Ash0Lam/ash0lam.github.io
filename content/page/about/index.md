@@ -37,4 +37,4 @@ While I’m unsure about my **exact future path**, I hope to **explore more AI a
 ## **🌐 Connect With Me**
 📧 **Email**: [ash_work@outlook.com](mailto:ash_work@outlook.com)  
 🐱 **GitHub**: [github.com/ash0lam](https://github.com/ash0lam)  
-🖼️ **Linkedln**: [https://www.linkedin.com/in/ash0lam/](https://www.linkedin.com/in/ash0lam/)
+💼 **Linkedln**: [linkedin.com/in/ash0lam/](https://www.linkedin.com/in/ash0lam/)
