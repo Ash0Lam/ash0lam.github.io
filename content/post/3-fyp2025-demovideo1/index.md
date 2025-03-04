@@ -38,12 +38,11 @@ This section demonstrates how the **Flask Web Interface** is used to control the
 - Test **WebSocket real-time communication** with minimal delay
 
 📹 **Demo Video**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/1srNafCRfF6LYFfBGFZVh1B1bZ-5uqomN/preview" width="640" height="480"></iframe>
-{{% /raw %}}
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/1wbi7aINLB2lZS_UJs8snNqMI1oWNAZRS/preview" width="640" height="480"></iframe>
-{{% /raw %}}
+
 
 ---
 
@@ -54,10 +53,7 @@ This section demonstrates how the **Flask Web Interface** is used to control the
 - Test **motion precision & command response time**
 
 📹 **Demo Video (Angle 1)**:
-{{< youtube "Video_ID_2" >}}
-
-📹 **Demo Video (Angle 2)**:
-{{< youtube "Video_ID_3" >}}
+will upload later
 
 ---
 
@@ -71,9 +67,9 @@ This section tests the **voice recognition and AI-powered command execution** ca
 - **Evaluate execution smoothness and response time**
 
 📹 **Demo Video**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/1T7k9IoVpIKucgp1NPLeaQBB6ManbqFue/preview" width="640" height="480"></iframe>
-{{% /raw %}}
+
 
 ---
 
@@ -84,15 +80,15 @@ This section tests the **voice recognition and AI-powered command execution** ca
 - **Compare response speed from multiple angles**
 
 📹 **Demo Video (Angle 1)**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/1zbT6DXdlr9vfMXRQPZ12_4pcIXEhmBB0/preview" width="640" height="480"></iframe>
-{{% /raw %}}
+
 
 
 📹 **Demo Video (Angle 2)**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/1QTvwJpWOKz8EfJfQ_K8IO7aQX7OUZtU-/preview" width="640" height="480"></iframe>
-{{% /raw %}}
+
 
 
 ---
@@ -104,9 +100,9 @@ This section tests the **voice recognition and AI-powered command execution** ca
 - **Latency and accuracy of chatbot answers**
 
 📹 **Demo Video (Angle 1)**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/13qS0KVDj_YZQYkLoG64sZzTlaw4apTh_/preview" width="640" height="480"></iframe>
-{{% /raw %}}
+
 
 ---
 
@@ -117,9 +113,8 @@ This section tests the **voice recognition and AI-powered command execution** ca
 - **Check AI-generated motion commands execution**
 
 📹 **Demo Video (Angle 1)**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/1IK4OHVocXW5KS7Rq75AnAInVFK54jDLu/preview" width="640" height="480"></iframe>
-{{% /raw %}}
 
 ---
 
@@ -133,9 +128,9 @@ This section tests how the robot **analyzes visual data through its camera**, re
 - **Evaluate AI-generated responses based on video feed analysis**
 
 📹 **Demo Video (Angle 1)**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/1UNCcR0X4szDm8p_6jJ70HOB3JlH6ndXR/preview" width="640" height="480"></iframe>
-{{% /raw %}}
+
 
 ---
 
@@ -145,9 +140,9 @@ This section tests how the robot **analyzes visual data through its camera**, re
 - **Combines voice input & vision processing for intelligent responses**
 
 📹 **Demo Video**:
-{{% raw %}}
+
 <iframe src="https://drive.google.com/file/d/10z-03NTF8952_y9WjtHo5NDfQyNYllvu/preview" width="640" height="480"></iframe>
-{{% /raw %}}
+
 
 
 ---
