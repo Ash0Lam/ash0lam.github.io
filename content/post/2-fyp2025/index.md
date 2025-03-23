@@ -1,8 +1,8 @@
 ---
-title: "Evolution of AI-Powered Voice Interaction Robot"
+title: "[FYP] Evolution of AI-Powered Voice Interaction Robot"
 description: "Final Year Project (FYP) exploring AI-driven speech recognition, real-time video analysis, and interactive robotics."
 image: cover.jpg
-date: 2024-11-15 14:53:00+0000
+date: 2024-11-15 10:00:00+0800
 tags: 
     - AI
     - Robotics
@@ -12,6 +12,7 @@ tags:
     - WebSocket
     - OpenAI
     - Azure AI
+    - FYP
 categories:
     - School Project
     - IT
