@@ -1,6 +1,3 @@
-## Updated Blog Post (.md)
-
-```markdown
 ---
 title: Streamlining Outlook Email Templates with Outlook Template Bartender v1.2
 description: A local, privacy-respecting Outlook template management tool to ease repetitive email tasks, especially on older office machines.
