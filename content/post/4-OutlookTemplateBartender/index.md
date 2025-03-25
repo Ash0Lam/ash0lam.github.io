@@ -73,11 +73,6 @@ The project was designed to solve:
 
 ## **What's New in Version 1.2**
 
-### 🔹 **Smart @Mentions Feature**
-- Use `@{Email}` syntax in your templates to automatically convert email addresses to proper @mentions.
-- For example, `@{manager}` will be converted to `@John Doe` when `manager` variable is filled with `john.doe@company.com`.
-- Makes emails more engaging and ensures proper notifications in modern email clients.
-
 ### 🔹 **Perfect HTML Preservation**
 - Enhanced HTML handling ensures that complex table structures, colors, and formatting are preserved exactly as in the original.
 - Perfect for financial reports, status updates, and other data-heavy emails.
@@ -114,7 +109,7 @@ This project represents a modern development approach where I focused on the con
 ---
 
 ## **Conclusion**
-With version 1.2, **Outlook Template Bartender** has become even more powerful while maintaining its lightweight footprint. The new Smart @Mentions feature enhances email interactivity, while improved HTML handling ensures perfectly preserved formatting.
+With version 1.2, **Outlook Template Bartender** has become even more powerful while maintaining its lightweight footprint. Improved HTML handling ensures perfectly preserved formatting.
 
 This project continues to address the real-world pain points of handling repetitive emails in sluggish Outlook environments. By combining simplicity, speed, and privacy, it aims to assist office workers (especially those stuck with older machines) in managing emails effortlessly.
 
