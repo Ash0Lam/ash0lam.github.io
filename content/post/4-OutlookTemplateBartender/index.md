@@ -54,7 +54,6 @@ The project was designed to solve:
 ### 🔹 **Dynamic Variable Insertion**
 - Easily define placeholders like `{receiver}`, `{project_name}`, etc.
 - Auto-populate variables before sending email.
-- **NEW in v1.2**: Smart @Mentions using `@{Email}` syntax to automatically convert email addresses to proper @mentions.
 
 ---
 
@@ -123,12 +122,15 @@ It remains a tool that fills the gap left by more complex (and sometimes expensi
 
 ---
 
-## **Screenshots**
-Here are some screenshots demonstrating its key features:
+## **Demo Showcase**
 
-![Template Management](template1.jpg)  
-![Variable Input](variable.jpg)  
-![HTML Editor](editor.jpg)
+📹 **Demo Video (v1.0)**:
+
+{{< video "https://drive.google.com/file/d/1dkm8oZd1LPuqtHgKXA8hEbDoZ9AvP9I_/preview" >}}
+
+📹 **Demo Video (v1.2)**:
+
+{{< video "https://drive.google.com/file/d/146p4-vWAWdEWy4ivITysrH_1YUwgDmEd/preview" >}}
 
 ---
 
