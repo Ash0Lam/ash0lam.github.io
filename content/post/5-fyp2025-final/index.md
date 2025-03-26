@@ -1,7 +1,7 @@
 ---
 title: "[FYP] Multilingual Intelligent Robot Project - Final Version and Feature Summary"
 description: "Final version of the AI robot project featuring multilingual interface, real-time conversation flow, and WhatsApp-styled UI implementation."
-date: 2025-03-26 14:30:00+0800
+date: 2025-03-26 00:00:00+0800
 draft: false
 image: cover.jpg
 tags: 
