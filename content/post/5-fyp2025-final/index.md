@@ -94,66 +94,45 @@ The new interface has been optimized for both desktop and mobile devices, ensuri
 
 ## 🌐 Multilingual Support System Implementation
 
-### 🔄 Complete English-Chinese Bilingual Support
+### 🔄 Google Translate Integration
 
-One of the most significant new features is the complete bilingual support system. Users can now seamlessly switch between English and Chinese with a simple toggle button.
-
-```html
-<!-- Language Switcher -->
-<div class="language-switch">
-    <button id="lang-zh-btn" class="btn btn-sm btn-outline-primary active">中文</button>
-    <button id="lang-en-btn" class="btn btn-sm btn-outline-primary">English</button>
-</div>
-```
-
-```javascript
-// Language switching functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const zhBtn = document.getElementById('lang-zh-btn');
-    const enBtn = document.getElementById('lang-en-btn');
-    
-    // Get saved language setting from localStorage
-    const savedLang = localStorage.getItem('preferred-language');
-    if (savedLang === 'en') {
-        document.body.classList.add('english');
-        zhBtn.classList.remove('active');
-        enBtn.classList.add('active');
-    }
-    
-    // Switch to Chinese
-    zhBtn.addEventListener('click', function() {
-        document.body.classList.remove('english');
-        enBtn.classList.remove('active');
-        zhBtn.classList.add('active');
-        localStorage.setItem('preferred-language', 'zh');
-    });
-    
-    // Switch to English
-    enBtn.addEventListener('click', function() {
-        document.body.classList.add('english');
-        zhBtn.classList.remove('active');
-        enBtn.classList.add('active');
-        localStorage.setItem('preferred-language', 'en');
-    });
-});
-```
-
-### 🔍 Language Preference Persistence
-
-The system remembers the user's language preference and automatically applies it on the next visit, implemented using the browser's localStorage.
-
-### 🧩 Bilingual Adaptation for Interface Elements
-
-All major UI elements have been updated with bilingual support:
+One of the most significant new features is the multilingual support system implemented through Google Translate. Users can now seamlessly switch between English, Traditional Chinese, and Simplified Chinese with a simple dropdown interface.
 
 ```html
-<button class="btn btn-outline-primary action-button">
-    <span class="lang-zh">前進</span>
-    <span class="lang-en">Forward</span>
-</button>
+<!-- Google Translate Element -->
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'zh-HK',
+    includedLanguages: 'en,zh-TW,zh-CN', // Limited language options
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 ```
 
-This approach ensures that all buttons, labels, and prompts display correctly when switching languages, significantly enhancing the experience for international users.
+### 🌍 Key Benefits of Google Translate Integration
+
+The Google Translate integration offers several advantages:
+
+- **Simplified Implementation**: Leverages Google's established translation infrastructure
+- **Multiple Language Support**: Easy to extend beyond just English and Chinese
+- **Automatic Language Detection**: Detects user's preferred language
+- **Universal Translation**: Translates all UI elements automatically without manual tagging
+- **Maintenance Efficiency**: Updates to translation quality happen automatically via Google's service
+
+### 🔍 Practical Application
+
+By implementing Google Translate, we've eliminated the need for:
+- Manual tagging of UI elements with language-specific classes
+- Custom language switching logic
+- Local storage of language preferences
+
+This approach significantly reduced development time while providing a more robust translation system that can easily be extended to additional languages in the future.
+
+The translate widget is strategically positioned in the interface to ensure accessibility without interfering with the primary chat functionality, maintaining the clean WhatsApp-inspired design.
 
 ---
 
