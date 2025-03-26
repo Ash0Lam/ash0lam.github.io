@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false
 
 # Disqus 設定
-disqusShortname = "hugo-theme-stack"
+disqusShortname = "ash0lam"
 
 [pagination]
 pagerSize = 5
