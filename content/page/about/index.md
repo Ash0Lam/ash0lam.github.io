@@ -11,30 +11,51 @@ menu:
 
 # 👋 Hi, I'm Ash!
 
-I enjoy **turning ideas into reality**. AI fascinates me because it **simplifies tasks that were once complex and inaccessible**, making advanced technology more usable for everyone. I believe AI should be open and approachable, not restricted by high barriers or monopolized by corporations.
+I'm passionate about applying **AI and automation** to solve real-world problems. I enjoy building **interactive, user-focused systems** that make technology more intuitive, efficient, and accessible. Whether it's streamlining daily tasks or enabling natural interaction with machines, I aim to create tools that are both **practical and impactful**.
 
-## **🎯 What Drives Me**
-- **AI as a tool for creativity & accessibility** – AI helps me bring my **thoughts and concepts to life**, even when I lack the technical skills to code everything from scratch.
-- **Voice Recognition & Speech AI** – Breaking language barriers through AI-driven **speech recognition and communication** is something that excites me.
-- **Experimenting & Problem-Solving** – I don't like just memorizing theories; I prefer testing things, finding solutions, and applying **any method necessary** to get results.
+## 🎯 What Drives Me
+- **AI as a tool for usability** – I believe AI should simplify, not complicate. I enjoy exploring how AI can be made approachable and useful in daily workflows.
+- **Automation for productivity** – I like building tools that eliminate repetitive tasks and enhance efficiency — especially in environments where resources are limited.
+- **Interaction & experience** – I’m fascinated by how people engage with technology, whether through voice, vision, or responsive systems.
 
-## **🛠️ My FYP: AI-Powered Interactive Robot**
-My Final Year Project (FYP) focuses on **building an AI-driven robot** that can interact with people through **speech, motion, and vision analysis**.  
-- Initially, it was controlled via a **Telegram Bot**, allowing users to send commands remotely.  
-- Now, it has evolved into a **real-time WebSocket-based system**, offering **instant interaction and voice communication** between the robot and the PC server.  
+## 🛠️ Projects from School
 
-This project **made me realize the joy of seeing a machine respond to my commands and ideas**, reinforcing my passion for **human-computer interaction and automation**.
+### **AI-Powered Interactive Robot (FYP)**
+My Final Year Project focused on creating a robot capable of **speech-based interaction, computer vision, and real-time control**.
+- Evolved from a **Telegram bot control system** to a **WebSocket-based voice interface**.
+- Used **Whisper, Azure Speech**, and **GPT chatbot logic** to support multilingual and real-time communication.
+- Reinforced my passion for combining AI with responsive, interactive systems.
 
-## **🔧 Skills & Tools**
-- **AI-Assisted Development**: Utilizing **AI-generated code** to develop applications efficiently.
-- **Speech & NLP**: Implementing **Whisper AI, Azure Speech Services, GPT-based chatbot**.
-- **Backend & System Integration**: Developing **Flask & WebSocket-based control systems** for real-time interaction.
-- **Problem-Solving & Experimentation**: I focus on **practical solutions over theoretical perfection**, adapting new tools and AI-assisted development methods.
+### **Python-Based Forum System**
+As part of a web application development course, I built a **full-stack forum system** using Python and SQLite.
+- Included user authentication, post/thread management, and simple admin controls.
+- Helped strengthen my backend fundamentals and database handling skills.
 
-## **📌 What’s Next?**
-While I’m unsure about my **exact future path**, I hope to **explore more AI applications** and **continue developing automation & interactive systems**. My **ultimate goal is to work in a field that excites me**, where I can **experiment, create, and innovate** without limitations.
+## 💡 Independent Project from Work
 
-## **🌐 Connect With Me**
+### **Outlook Template Bartender**
+While working in a corporate environment, I noticed how many colleagues struggled with slow Outlook performance when reusing email templates — especially on older machines. That sparked the idea for this tool.
+
+**Outlook Template Bartender** is a lightweight, offline desktop app that helps users quickly manage and send templated Outlook emails with dynamic variables.  
+- Built with **Python + Tkinter**, with **HTML editing via pywebview and CKEditor**.  
+- Integrated **Outlook COM automation**, variable placeholders, and account selection.  
+- Designed for **low-resource environments**, respecting user privacy and minimizing system load.
+
+This project reflects my mindset: **see a problem → build a solution**.
+
+## 🔧 Skills & Tools
+
+**AI & NLP**: Whisper, Azure Speech, GPT chatbots  
+**Backend**: Python, Flask, SQLite, WebSockets  
+**Frontend/UI**: Tkinter, pywebview, CKEditor  
+**Automation**: Outlook COM scripting, task optimization tools  
+**Approach**: AI-assisted development, rapid prototyping, real-world problem solving
+
+## 🚀 What’s Next?
+I’m currently exploring more ways to apply AI in automation, developer tools, and interactive systems.  
+My goal is to work in a space where I can **create, experiment, and grow**, building solutions that make a difference in how people interact with technology.
+
+## 🌐 Connect With Me
 📧 **Email**: [ash_work@outlook.com](mailto:ash_work@outlook.com)  
 🐱 **GitHub**: [github.com/ash0lam](https://github.com/ash0lam)  
-💼 **Linkedln**: [linkedin.com/in/ash0lam/](https://www.linkedin.com/in/ash0lam/)
+💼 **LinkedIn**: [linkedin.com/in/ash0lam/](https://www.linkedin.com/in/ash0lam/)
