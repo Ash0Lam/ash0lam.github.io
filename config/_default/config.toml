@@ -31,4 +31,5 @@ enableRobotsTXT = true
     style = "dracula"  # ✅ 選擇語法高亮的風格
 
 [params]
-  showReadingTime = false  # ✅ 取消 "X-minute read"
+  showReadingTime = false
+  description = "No fixed menu. Human ideas, sparked by curiosity — shaped with AI into real solutions."
