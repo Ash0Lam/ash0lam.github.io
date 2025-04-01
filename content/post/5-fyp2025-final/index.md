@@ -305,13 +305,13 @@ Although the project is officially concluded, if there's an opportunity to expan
 
 ---
 
-### 🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 Finally, heartfelt thanks to everyone who participated in and supported this project. Special appreciation goes to our supervisors for their guidance, and to all those whose efforts helped bring this project to life.
 
 ---
 
-### 📌 Personal Reflection on the FYP Experience
+## 📌 Personal Reflection on the FYP Experience
 Throughout this project, I encountered many challenges not only in technical implementation but also in team dynamics and institutional processes.
 
 As someone who relied heavily on self-learning, experimentation, and AI-assisted development (e.g., GPT and Claude), I realized that current academic structures may not fully recognize individual contributions in group projects—especially when group members' effort levels vary greatly.
