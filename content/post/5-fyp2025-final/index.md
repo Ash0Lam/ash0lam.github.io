@@ -305,9 +305,22 @@ Although the project is officially concluded, if there's an opportunity to expan
 
 ---
 
-## 🙏 Acknowledgments
+### 🙏 Acknowledgments
 
-Finally, thanks to everyone who participated in and supported this project, including VTC professors and fellow students. Special thanks to our supervisors for their valuable advice and to the team members for their hard work in making this project possible.
+Finally, heartfelt thanks to everyone who participated in and supported this project. Special appreciation goes to our supervisors for their guidance, and to all those whose efforts helped bring this project to life.
+
+---
+
+### 📌 Personal Reflection on the FYP Experience
+Throughout this project, I encountered many challenges not only in technical implementation but also in team dynamics and institutional processes.
+
+As someone who relied heavily on self-learning, experimentation, and AI-assisted development (e.g., GPT and Claude), I realized that current academic structures may not fully recognize individual contributions in group projects—especially when group members' effort levels vary greatly.
+
+This experience taught me the value of visibility, communication, and the ability to stand up for one's work, even when the system seems indifferent.
+
+In the future, I hope institutions can explore fairer assessment methods, such as peer-coded contributions, development logs, or clearer responsibility tracking.
+
+Despite these frustrations, I’m grateful for what this project taught me—not just about code, but about resilience and self-worth.
 
 ---
 
