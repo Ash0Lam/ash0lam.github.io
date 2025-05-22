@@ -128,6 +128,6 @@ It remains a tool that fills the gap left by more complex (and sometimes expensi
 
 ## **Repository**
 You can check out the project here:  
-[GitHub - Outlook Template Bartender](https://github.com/Ash0Lam/Outlook-Template-Bartender)
+[GitHub - Outlook Template Bartender](https://github.com/Ash0Lam/OutlookTemplateBartender)
 
 > *All screenshots and code are from my original project.*
