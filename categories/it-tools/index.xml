@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT Tools on Omakase by Ash</title><link>https://ash0lam.github.io/categories/it-tools/</link><description>Recent content in IT Tools on Omakase by Ash</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 05:38:47 +0000</lastBuildDate><atom:link href="https://ash0lam.github.io/categories/it-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Streamlining Outlook Email Templates with Outlook Template Bartender v1.2</title><link>https://ash0lam.github.io/p/streamlining-outlook-email-templates-with-outlook-template-bartender-v1.2/</link><pubDate>Sun, 23 Mar 2025 14:53:00 +0000</pubDate><guid>https://ash0lam.github.io/p/streamlining-outlook-email-templates-with-outlook-template-bartender-v1.2/</guid><description>&lt;img src="https://ash0lam.github.io/p/streamlining-outlook-email-templates-with-outlook-template-bartender-v1.2/cover.jpg" alt="Featured image of post Streamlining Outlook Email Templates with Outlook Template Bartender v1.2" />&lt;h2 id="introduction">&lt;strong>Introduction&lt;/strong>
+&lt;/h2>&lt;p>While working in corporate environments, I observed a recurring issue – many employees use outdated office computers, yet have to handle tons of Outlook emails daily. Opening Outlook templates often slows down the entire machine. Even when templates load, tasks like selecting recipients, manually editing placeholders, or reusing email formats become tedious and error-prone.&lt;/p>
+&lt;p>That&amp;rsquo;s when I thought: &lt;strong>why not create a lightweight, local desktop application, to help manage and automate repetitive Outlook email templates without bogging down the system?&lt;/strong>&lt;/p>
+&lt;p>Thus, &lt;strong>Outlook Template Bartender&lt;/strong> was born – designed as a privacy-respecting, fully offline assistant that &amp;ldquo;serves up&amp;rdquo; pre-made, dynamically customizable Outlook emails quickly and reliably, even on low-spec machines.&lt;/p>
+&lt;hr>
+&lt;h2 id="objectives">&lt;strong>Objectives&lt;/strong>
+&lt;/h2>&lt;p>The project was designed to solve:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Outlook lagging issues&lt;/strong> when handling repetitive templates or bulk emails.&lt;/li>
+&lt;li>&lt;strong>Simplifying repetitive email tasks&lt;/strong> via one-click template management.&lt;/li>
+&lt;li>&lt;strong>Variable replacement support&lt;/strong>, allowing users to insert placeholders like &lt;code>{receiver}&lt;/code>, &lt;code>{date}&lt;/code>, etc.&lt;/li>
+&lt;li>&lt;strong>Support for older office PCs&lt;/strong> – lightweight, no cloud dependency.&lt;/li>
+&lt;li>&lt;strong>Direct integration with Outlook&lt;/strong>, eliminating the need to manually find, edit, or copy templates.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="project-features">&lt;strong>Project Features&lt;/strong>
+&lt;/h2>&lt;h3 id="-template-management-by-event-type">🔹 &lt;strong>Template Management by Event Type&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Organize email templates based on event categories.&lt;/li>
+&lt;li>Quickly search and filter templates by name or content.&lt;/li>
+&lt;li>Tag system for better content classification.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-quick-html-email-editing">🔹 &lt;strong>Quick HTML Email Editing&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Copy any existing Outlook email → paste into built-in &lt;strong>HTML editor&lt;/strong>.&lt;/li>
+&lt;li>Keeps &lt;strong>exact&lt;/strong> HTML structure intact, preserving tables, colors, and formatting.&lt;/li>
+&lt;li>Conveniently modify, insert variables, and preview.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-dynamic-variable-insertion">🔹 &lt;strong>Dynamic Variable Insertion&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Easily define placeholders like &lt;code>{receiver}&lt;/code>, &lt;code>{project_name}&lt;/code>, etc.&lt;/li>
+&lt;li>Auto-populate variables before sending email.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-direct-outlook-integration">🔹 &lt;strong>Direct Outlook Integration&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Generate Outlook draft emails with proper formatting and inline images.&lt;/li>
+&lt;li>Supports &lt;strong>multiple Outlook accounts&lt;/strong> – select sender on the fly.&lt;/li>
+&lt;li>&lt;strong>NEW in v1.2&lt;/strong>: Signature management options (default/custom/none).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-offline-privacy-first-approach">🔹 &lt;strong>Offline, Privacy-First Approach&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Local SQLite storage – &lt;strong>no cloud dependency&lt;/strong>.&lt;/li>
+&lt;li>No external API calls – all processing happens on your machine.&lt;/li>
+&lt;li>&lt;strong>Extremely resource-friendly&lt;/strong>: Core app uses only ~25MB RAM, with HTML editor loading only when needed.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="what">&lt;strong>What&amp;rsquo;s New in Version 1.2&lt;/strong>
+&lt;/h2>&lt;h3 id="-perfect-html-preservation">🔹 &lt;strong>Perfect HTML Preservation&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Enhanced HTML handling ensures that complex table structures, colors, and formatting are preserved exactly as in the original.&lt;/li>
+&lt;li>Perfect for financial reports, status updates, and other data-heavy emails.&lt;/li>
+&lt;/ul>
+&lt;h3 id="-signature-options">🔹 &lt;strong>Signature Options&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Choose between using default Outlook signature, a specific custom signature, or no signature at all.&lt;/li>
+&lt;li>Set different signature preferences for different types of emails.&lt;/li>
+&lt;/ul>
+&lt;h3 id="-resource-optimization">🔹 &lt;strong>Resource Optimization&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Core application uses only ~25MB of RAM.&lt;/li>
+&lt;li>HTML editor loads on-demand (~49MB additional) and releases resources after use.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="challenges-faced">&lt;strong>Challenges Faced&lt;/strong>
+&lt;/h2>&lt;ol>
+&lt;li>&lt;strong>Handling HTML Formatting Preservation&lt;/strong> – Ensuring that copy-pasted Outlook emails retain their exact formatting in the built-in editor.&lt;/li>
+&lt;li>&lt;strong>Reliable Outlook COM Integration&lt;/strong> – Interfacing Python scripts with Outlook to accurately select sender accounts and embed images.&lt;/li>
+&lt;li>&lt;strong>Optimizing UI Responsiveness&lt;/strong> – Ensuring the app runs smoothly on outdated hardware.&lt;/li>
+&lt;li>&lt;strong>Smart @Mentions Processing&lt;/strong> – Implementing HTML-aware parsing to properly convert email variables to display names.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="technologies-used">&lt;strong>Technologies Used&lt;/strong>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Backend &amp;amp; UI&lt;/strong>: Python (Tkinter)&lt;/li>
+&lt;li>&lt;strong>Database&lt;/strong>: SQLite&lt;/li>
+&lt;li>&lt;strong>Email Integration&lt;/strong>: win32com for Outlook&lt;/li>
+&lt;li>&lt;strong>HTML Editing&lt;/strong>: CKEditor embedded via pywebview&lt;/li>
+&lt;li>&lt;strong>Supporting Libraries&lt;/strong>: psutil, pywebview, pywin32, pillow, re (for regex patterns)&lt;/li>
+&lt;li>&lt;strong>Development Approach&lt;/strong>: Human-AI collaboration with Claude &amp;amp; GPT-4 AI assistants generating code based on my ideas and requirements&lt;/li>
+&lt;/ul>
+&lt;p>This project represents a modern development approach where I focused on the concept, requirements gathering, and testing, while leveraging AI assistants to help with code generation. This allowed rapid development while ensuring the tool precisely addressed the real-world needs I identified.&lt;/p>
+&lt;hr>
+&lt;h2 id="conclusion">&lt;strong>Conclusion&lt;/strong>
+&lt;/h2>&lt;p>With version 1.2, &lt;strong>Outlook Template Bartender&lt;/strong> has become even more powerful while maintaining its lightweight footprint. Improved HTML handling ensures perfectly preserved formatting.&lt;/p>
+&lt;p>This project continues to address the real-world pain points of handling repetitive emails in sluggish Outlook environments. By combining simplicity, speed, and privacy, it aims to assist office workers (especially those stuck with older machines) in managing emails effortlessly.&lt;/p>
+&lt;p>It remains a tool that fills the gap left by more complex (and sometimes expensive/cloud-based) solutions, offering something lightweight yet powerful.&lt;/p>
+&lt;hr>
+&lt;h2 id="demo-showcase">&lt;strong>Demo Showcase&lt;/strong>
+&lt;/h2>&lt;p>📹 &lt;strong>Demo Video (v1.0)&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1dkm8oZd1LPuqtHgKXA8hEbDoZ9AvP9I_/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="repository">&lt;strong>Repository&lt;/strong>
+&lt;/h2>&lt;p>You can check out the project here:&lt;br>
+&lt;a class="link" href="https://github.com/Ash0Lam/OutlookTemplateBartender" target="_blank" rel="noopener"
+>GitHub - Outlook Template Bartender&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>All screenshots and code are from my original project.&lt;/em>&lt;/p>&lt;/blockquote></description></item></channel></rss>

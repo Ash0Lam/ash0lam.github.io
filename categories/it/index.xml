@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT on Omakase by Ash</title><link>https://ash0lam.github.io/categories/it/</link><description>Recent content in IT on Omakase by Ash</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 05:38:47 +0000</lastBuildDate><atom:link href="https://ash0lam.github.io/categories/it/index.xml" rel="self" type="application/rss+xml"/><item><title>[FYP] Multilingual Intelligent Robot Project - Final Version and Feature Summary</title><link>https://ash0lam.github.io/p/fyp-multilingual-intelligent-robot-project-final-version-and-feature-summary/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0800</pubDate><guid>https://ash0lam.github.io/p/fyp-multilingual-intelligent-robot-project-final-version-and-feature-summary/</guid><description>&lt;img src="https://ash0lam.github.io/p/fyp-multilingual-intelligent-robot-project-final-version-and-feature-summary/cover.jpg" alt="Featured image of post [FYP] Multilingual Intelligent Robot Project - Final Version and Feature Summary" />&lt;h1 id="-multilingual-intelligent-robot-project---final-version-and-feature-summary">🤖 Multilingual Intelligent Robot Project - Final Version and Feature Summary
+&lt;/h1>&lt;p>This is the final update for our AI robot project, where we&amp;rsquo;ve implemented several significant enhancements and completed the system&amp;rsquo;s fundamental architecture. This article details the major improvements since our last demonstration, focusing on the completely redesigned user interface, multilingual support, and real-time conversation flow functionality.&lt;/p>
+&lt;hr>
+&lt;h2 id="-overview-of-key-new-features">🆕 Overview of Key New Features
+&lt;/h2>&lt;p>Compared to our previous demonstration, we&amp;rsquo;ve made substantial improvements in the following areas:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>All-New WhatsApp-Style Interface&lt;/strong> - Transformed the original Bootstrap interface into a more intuitive, engaging chat-style design&lt;/li>
+&lt;li>&lt;strong>Multilingual Support System&lt;/strong> - Complete English-Chinese bilingual support with automatic language detection and one-click switching&lt;/li>
+&lt;li>&lt;strong>Real-Time Voice Conversation Flow&lt;/strong> - New &amp;ldquo;Phone Mode&amp;rdquo; supporting continuous, uninterrupted dialogue without manual triggering&lt;/li>
+&lt;li>&lt;strong>Enhanced Camera Vision Analysis&lt;/strong> - Improved environmental understanding and object recognition capabilities&lt;/li>
+&lt;li>&lt;strong>Testing Tools Panel&lt;/strong> - Built-in testing functionality for development and diagnostics&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="-ui-transformation-from-standard-bootstrap-to-whatsapp-style">✨ UI Transformation: From Standard Bootstrap to WhatsApp Style
+&lt;/h2>&lt;p>The project initially used a standard Bootstrap interface that, while functional, lacked the intuitiveness of modern messaging applications. In the final version, we completely redesigned the user interface, adopting a WhatsApp-inspired design language.&lt;/p>
+&lt;h3 id="-design-comparison">🎨 Design Comparison
+&lt;/h3>&lt;p>&lt;strong>Original Design vs. Final Design:&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Design Element&lt;/th>
+&lt;th>Old Version&lt;/th>
+&lt;th>New Version&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Color Scheme&lt;/td>
+&lt;td>Default Bootstrap blue theme&lt;/td>
+&lt;td>WhatsApp-style green-focused palette&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Message Bubbles&lt;/td>
+&lt;td>Rectangular text boxes&lt;/td>
+&lt;td>Rounded message bubbles with clear sender/receiver distinction&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Layout&lt;/td>
+&lt;td>Form-oriented&lt;/td>
+&lt;td>Conversation-oriented, focused on message flow&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Component Design&lt;/td>
+&lt;td>Standard buttons and forms&lt;/td>
+&lt;td>Custom chat elements and interactive components&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">:&lt;/span>&lt;span class="nd">root&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--chat-primary&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#128C7E&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c">/* WhatsApp signature green */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--chat-light&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#DCF8C6&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c">/* Sent message background */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--chat-dark&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#075E54&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c">/* Header bar background */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--chat-received&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#f0f0f0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c">/* Received message background */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">message-content&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">padding&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">15&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">border-radius&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">box-shadow&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="nb">rgba&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mf">0.1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">relative&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">word-break&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">break-word&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">sent&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">margin-left&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">chat&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">light&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">received&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">margin-right&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">chat&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">received&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="-responsive-design-and-user-experience-optimization">📱 Responsive Design and User Experience Optimization
+&lt;/h3>&lt;p>The new interface has been optimized for both desktop and mobile devices, ensuring a consistent experience across different screen sizes. We paid particular attention to:&lt;/p>
+&lt;ul>
+&lt;li>Auto-expanding message input area&lt;/li>
+&lt;li>Accessibility of real-time voice input buttons&lt;/li>
+&lt;li>Camera window display and hide transitions&lt;/li>
+&lt;li>Automatic scrolling to the latest messages&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-multilingual-support-system-implementation">🌐 Multilingual Support System Implementation
+&lt;/h2>&lt;h3 id="-google-translate-integration">🔄 Google Translate Integration
+&lt;/h3>&lt;p>One of the most significant new features is the multilingual support system implemented through Google Translate. Users can now seamlessly switch between English, Traditional Chinese, and Simplified Chinese with a simple dropdown interface.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Google Translate Element --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;google_translate_element&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;text/javascript&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">function&lt;/span> &lt;span class="nx">googleTranslateElementInit&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">new&lt;/span> &lt;span class="nx">google&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">translate&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">TranslateElement&lt;/span>&lt;span class="p">({&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">pageLanguage&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;zh-HK&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">includedLanguages&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;en,zh-TW,zh-CN&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="c1">// Limited language options
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="nx">layout&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">google&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">translate&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">TranslateElement&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">InlineLayout&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">SIMPLE&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="s1">&amp;#39;google_translate_element&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;text/javascript&amp;#34;&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="-key-benefits-of-google-translate-integration">🌍 Key Benefits of Google Translate Integration
+&lt;/h3>&lt;p>The Google Translate integration offers several advantages:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Simplified Implementation&lt;/strong>: Leverages Google&amp;rsquo;s established translation infrastructure&lt;/li>
+&lt;li>&lt;strong>Multiple Language Support&lt;/strong>: Easy to extend beyond just English and Chinese&lt;/li>
+&lt;li>&lt;strong>Automatic Language Detection&lt;/strong>: Detects user&amp;rsquo;s preferred language&lt;/li>
+&lt;li>&lt;strong>Universal Translation&lt;/strong>: Translates all UI elements automatically without manual tagging&lt;/li>
+&lt;li>&lt;strong>Maintenance Efficiency&lt;/strong>: Updates to translation quality happen automatically via Google&amp;rsquo;s service&lt;/li>
+&lt;/ul>
+&lt;h3 id="-practical-application">🔍 Practical Application
+&lt;/h3>&lt;p>By implementing Google Translate, we&amp;rsquo;ve eliminated the need for:&lt;/p>
+&lt;ul>
+&lt;li>Manual tagging of UI elements with language-specific classes&lt;/li>
+&lt;li>Custom language switching logic&lt;/li>
+&lt;li>Local storage of language preferences&lt;/li>
+&lt;/ul>
+&lt;p>This approach significantly reduced development time while providing a more robust translation system that can easily be extended to additional languages in the future.&lt;/p>
+&lt;p>The translate widget is strategically positioned in the interface to ensure accessibility without interfering with the primary chat functionality, maintaining the clean WhatsApp-inspired design.&lt;/p>
+&lt;hr>
+&lt;h2 id="-real-time-voice-conversation-flow-phone-mode">📞 Real-Time Voice Conversation Flow: Phone Mode
+&lt;/h2>&lt;h3 id="-continuous-dialogue-experience">🎙️ Continuous Dialogue Experience
+&lt;/h3>&lt;p>The new &amp;ldquo;Phone Mode&amp;rdquo; radically changes how users interact with the robot. Instead of pressing the microphone button each time to initiate a conversation, users can now talk continuously as they would in a real phone call.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">function&lt;/span> &lt;span class="nx">startPhoneMode&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">isPhoneModeActive&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">phoneModeContainer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">classList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">add&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;active&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">startTimer&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">socket&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">emit&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;start_phone_mode&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// UI update
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="nx">phoneButton&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">classList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">add&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;phone-mode-active&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="-voice-activity-detection-and-automatic-capture">⏱️ Voice Activity Detection and Automatic Capture
+&lt;/h3>&lt;p>The system can now intelligently detect voice activity, interpreting silent periods as natural pauses in conversation:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">_recording_worker&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># ... Initialize recording device ...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">silence_count&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">has_detected_speech&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">False&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">max_silence_frames&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">rate&lt;/span> &lt;span class="o">/&lt;/span> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">chunk&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="c1"># End after 5 seconds of silence&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">is_recording&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">stream&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">read&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">chunk&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">vad&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">is_speech&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">rate&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">silence_count&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">has_detected_speech&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">True&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">frames&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">append&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">else&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">silence_count&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># If 5 seconds of silence after detecting speech, end recording and process&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">has_detected_speech&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">silence_count&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">max_silence_frames&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">break&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="-continuous-dialogue-processing-flow">🔄 Continuous Dialogue Processing Flow
+&lt;/h3>&lt;p>Conversation processing in Phone Mode follows a closed loop:&lt;/p>
+&lt;ol>
+&lt;li>Voice detection → Recording starts&lt;/li>
+&lt;li>Speech recognition processing (using Whisper or Azure)&lt;/li>
+&lt;li>Semantic understanding and AI response generation&lt;/li>
+&lt;li>Text-to-speech response&lt;/li>
+&lt;li>Continue listening for the next voice input&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="-enhanced-vision-analysis">👁️ Enhanced Vision Analysis
+&lt;/h2>&lt;h3 id="-real-time-environmental-understanding">🖼️ Real-Time Environmental Understanding
+&lt;/h3>&lt;p>We&amp;rsquo;ve improved the camera analysis functionality to:&lt;/p>
+&lt;ul>
+&lt;li>More precisely identify objects and people&lt;/li>
+&lt;li>Describe scenes more naturally in both Cantonese and English&lt;/li>
+&lt;li>Automatically execute appropriate actions based on recognition results (such as waving when a person is seen)&lt;/li>
+&lt;/ul>
+&lt;h3 id="-integrated-testing-tools">📊 Integrated Testing Tools
+&lt;/h3>&lt;p>To improve development and testing efficiency, we&amp;rsquo;ve added a dedicated testing panel that allows individual testing of audio recognition and visual analysis features.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;test-panel&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sidebar-card mb-3&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sidebar-header&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h5&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;mb-0 fs-6&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fas fa-flask me-2&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lang-zh&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>測試工具&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lang-en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Testing Tools&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h5&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;p-3&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- Audio testing area --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h6&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;mb-3&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fas fa-headphones me-2&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lang-zh&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>語音識別測試&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lang-en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Voice Recognition Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h6&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- Image testing area --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;mt-4 border-top pt-3&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h6&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;mb-3&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fas fa-image me-2&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lang-zh&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>圖片視覺分析測試&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lang-en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Image Analysis Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h6&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="-technical-improvements-and-architectural-optimization">💻 Technical Improvements and Architectural Optimization
+&lt;/h2>&lt;h3 id="-whisper-speech-recognition-options">🔧 Whisper Speech Recognition Options
+&lt;/h3>&lt;p>Users can now choose between using a local Whisper model or Azure cloud service for speech recognition, each with its own advantages:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Local Whisper&lt;/strong>: Low latency, no need to connect to cloud services&lt;/li>
+&lt;li>&lt;strong>Azure Speech Services&lt;/strong>: Higher accuracy, especially for Cantonese recognition&lt;/li>
+&lt;/ul>
+&lt;h3 id="-websocket-communication-optimization">🌐 WebSocket Communication Optimization
+&lt;/h3>&lt;p>The WebSocket communication layer has been restructured to more effectively handle multiple event types:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@socketio.on&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;robot_vad_audio&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">handle_robot_vad_audio&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;Handle speech detected by robot VAD&amp;#34;&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="ow">not&lt;/span> &lt;span class="n">phone_mode_active&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># Receive audio data from robot&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">audio_data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;audio_data&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="ow">not&lt;/span> &lt;span class="n">audio_data&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># Notify frontend that speech was detected&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">emit&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;phone_mode_speech_detected&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">broadcast&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># ... Process speech and generate response ...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">except&lt;/span> &lt;span class="ne">Exception&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">logging&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">error&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sa">f&lt;/span>&lt;span class="s2">&amp;#34;Error processing phone mode speech: &lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="n">e&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="final-showcase">&lt;strong>Final Showcase&lt;/strong>
+&lt;/h2>&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1WlXS9QX2EHoyak3nE5Yp2ec18uR86-3m/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="-project-conclusion-and-future-outlook">🏁 Project Conclusion and Future Outlook
+&lt;/h2>&lt;h3 id="-completed-features-list">📝 Completed Features List
+&lt;/h3>&lt;p>✅ &lt;strong>Multi-modal Control&lt;/strong>: Text, buttons, voice, and visual analysis
+✅ &lt;strong>Bilingual User Interface&lt;/strong>: Complete English and Chinese support
+✅ &lt;strong>Real-time Conversation Flow&lt;/strong>: Continuous interaction in phone mode
+✅ &lt;strong>WhatsApp-style UI&lt;/strong>: Modern, intuitive chat interface
+✅ &lt;strong>Extended Action Library&lt;/strong>: Basic movements, martial arts, and performance actions
+✅ &lt;strong>Cloud/Local Hybrid Computing&lt;/strong>: Flexible processing mode selection&lt;/p>
+&lt;h3 id="-project-status-completed">🛑 Project Status: Completed
+&lt;/h3>&lt;p>This version marks the official completion of the project. All planned core functionality has been implemented, and the system has achieved its intended design goals. &lt;strong>No new features will be added, and non-critical bugs will not be fixed.&lt;/strong>&lt;/p>
+&lt;h3 id="-potential-future-development-directions">🔮 Potential Future Development Directions
+&lt;/h3>&lt;p>Although the project is officially concluded, if there&amp;rsquo;s an opportunity to expand in the future, some potential areas for improvement include:&lt;/p>
+&lt;ul>
+&lt;li>Further optimization of local speech recognition models&lt;/li>
+&lt;li>Expansion of multilingual support (adding more languages)&lt;/li>
+&lt;li>Improvement of motion control algorithms for more complex actions&lt;/li>
+&lt;li>Strengthening security mechanisms, especially for remote control functionality&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-acknowledgments">🙏 Acknowledgments
+&lt;/h2>&lt;p>Finally, heartfelt thanks to everyone who participated in and supported this project. Special appreciation goes to our supervisors for their guidance, and to all those whose efforts helped bring this project to life.&lt;/p>
+&lt;hr>
+&lt;h2 id="-personal-reflection-on-the-fyp-experience">📌 Personal Reflection on the FYP Experience
+&lt;/h2>&lt;p>Throughout this project, I encountered many challenges not only in technical implementation but also in team dynamics and institutional processes.&lt;/p>
+&lt;p>As someone who relied heavily on self-learning, experimentation, and AI-assisted development (e.g., GPT and Claude), I realized that current academic structures may not fully recognize individual contributions in group projects—especially when group members&amp;rsquo; effort levels vary greatly.&lt;/p>
+&lt;p>This experience taught me the value of visibility, communication, and the ability to stand up for one&amp;rsquo;s work, even when the system seems indifferent.&lt;/p>
+&lt;p>In the future, I hope institutions can explore fairer assessment methods, such as peer-coded contributions, development logs, or clearer responsibility tracking.&lt;/p>
+&lt;p>Despite these frustrations, I’m grateful for what this project taught me—not just about code, but about resilience and self-worth.&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>This article is published as the final documentation for the [VTC IT114115 AY24/25 2A-A05 Group] robot project. For any questions or to learn more details, please contact us through &lt;a class="link" href="https://ash0lam.github.io/" target="_blank" rel="noopener"
+>Ash Lam&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>[FYP] AI Robot Demo Showcase - Interactive Control &amp; Speech Recognition</title><link>https://ash0lam.github.io/p/fyp-ai-robot-demo-showcase-interactive-control-speech-recognition/</link><pubDate>Tue, 04 Mar 2025 13:00:00 +0800</pubDate><guid>https://ash0lam.github.io/p/fyp-ai-robot-demo-showcase-interactive-control-speech-recognition/</guid><description>&lt;img src="https://ash0lam.github.io/p/fyp-ai-robot-demo-showcase-interactive-control-speech-recognition/cover.jpg" alt="Featured image of post [FYP] AI Robot Demo Showcase - Interactive Control &amp; Speech Recognition" />&lt;h1 id="-ai-robot-demo-showcase---interactive-control--speech-recognition">🎥 AI Robot Demo Showcase - Interactive Control &amp;amp; Speech Recognition
+&lt;/h1>&lt;p>This article showcases different interaction methods used to control the AI-powered robot, including:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Flask Web Interface (Text Input &amp;amp; Button Control)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Voice Command Execution (Motion Control, AI Chat, Q&amp;amp;A)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Camera-based Vision Recognition &amp;amp; AI Analysis&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="1-flask-interface-control">&lt;strong>1️⃣ Flask Interface Control&lt;/strong>
+&lt;/h2>&lt;p>This section demonstrates how the &lt;strong>Flask Web Interface&lt;/strong> is used to control the robot through &lt;strong>text input&lt;/strong> and &lt;strong>button clicks&lt;/strong>.&lt;/p>
+&lt;h3 id="-text-input-command-via-flask-interface">&lt;strong>🔹 Text Input Command via Flask Interface&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Control the robot using &lt;strong>text input&lt;/strong> through the Flask Web UI&lt;/li>
+&lt;li>Ensure &lt;strong>correct movement execution&lt;/strong> based on the commands&lt;/li>
+&lt;li>Test &lt;strong>WebSocket real-time communication&lt;/strong> with minimal delay&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video&lt;/strong>:
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1srNafCRfF6LYFfBGFZVh1B1bZ-5uqomN/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1wbi7aINLB2lZS_UJs8snNqMI1oWNAZRS/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h3 id="-button-controlled-motion-execution-via-flask-interface">&lt;strong>🔹 Button-Controlled Motion Execution via Flask Interface&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Button-based control for robot movements&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Multiple camera angles to showcase execution&lt;/strong>&lt;/li>
+&lt;li>Test &lt;strong>motion precision &amp;amp; command response time&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video (Angle 1)&lt;/strong>:
+will upload later&lt;/p>
+&lt;hr>
+&lt;h2 id="2-voice-command-control">&lt;strong>2️⃣ Voice Command Control&lt;/strong>
+&lt;/h2>&lt;p>This section tests the &lt;strong>voice recognition and AI-powered command execution&lt;/strong> capabilities, including &lt;strong>movement, chat interactions, and question answering&lt;/strong>.&lt;/p>
+&lt;h3 id="-basic-voice-command-test">&lt;strong>🔹 Basic Voice Command Test&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Command:&lt;/strong> &amp;ldquo;Move right once&amp;rdquo;&lt;/li>
+&lt;li>&lt;strong>Test Whisper AI&amp;rsquo;s speech recognition accuracy&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Evaluate execution smoothness and response time&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video&lt;/strong>:
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1T7k9IoVpIKucgp1NPLeaQBB6ManbqFue/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="-multi-step-motion-control-via-voice">&lt;strong>🔹 Multi-Step Motion Control via Voice&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Command:&lt;/strong> &amp;ldquo;Move forward three steps&amp;rdquo;&lt;/li>
+&lt;li>&lt;strong>Test AI’s ability to execute consecutive movement steps&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Compare response speed from multiple angles&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video (Angle 1)&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1zbT6DXdlr9vfMXRQPZ12_4pcIXEhmBB0/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;p>📹 &lt;strong>Demo Video (Angle 2)&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1QTvwJpWOKz8EfJfQ_K8IO7aQX7OUZtU-/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h3 id="-ai-chat-interaction-news-qa">&lt;strong>🔹 AI Chat Interaction (News Q&amp;amp;A)&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>The robot answers real-world questions based on GPT AI responses&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Speech recognition &amp;amp; conversational AI response fluidity&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Latency and accuracy of chatbot answers&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video (Angle 1)&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/13qS0KVDj_YZQYkLoG64sZzTlaw4apTh_/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h3 id="-ai-motion-execution-dance--greetings">&lt;strong>🔹 AI Motion Execution: Dance &amp;amp; Greetings&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Voice command:&lt;/strong> &amp;ldquo;Dance&amp;rdquo;&lt;/li>
+&lt;li>&lt;strong>Evaluate the fluidity of robot movements&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Check AI-generated motion commands execution&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video (Angle 1)&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1IK4OHVocXW5KS7Rq75AnAInVFK54jDLu/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="3-camera-based-ai-vision-recognition">&lt;strong>3️⃣ Camera-Based AI Vision Recognition&lt;/strong>
+&lt;/h2>&lt;p>This section tests how the robot &lt;strong>analyzes visual data through its camera&lt;/strong>, recognizes objects, and responds accordingly.&lt;/p>
+&lt;h3 id="-basic-camera-recognition-test">&lt;strong>🔹 Basic Camera Recognition Test&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Live streaming from the robot&amp;rsquo;s camera&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Testing object &amp;amp; environmental recognition accuracy&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Evaluate AI-generated responses based on video feed analysis&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video (Angle 1)&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1UNCcR0X4szDm8p_6jJ70HOB3JlH6ndXR/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h3 id="-ai-vision-qa-interaction">&lt;strong>🔹 AI Vision Q&amp;amp;A Interaction&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Test Objectives&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Robot interprets the environment and answers user queries&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Combines voice input &amp;amp; vision processing for intelligent responses&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>📹 &lt;strong>Demo Video&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/10z-03NTF8952_y9WjtHo5NDfQyNYllvu/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="-observations--future-improvements">&lt;strong>🚀 Observations &amp;amp; Future Improvements&lt;/strong>
+&lt;/h2>&lt;h3 id="-key-findings-from-tests">✅ &lt;strong>Key Findings from Tests&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Flask Web Interface&lt;/strong> → Works well with WebSocket, ensuring &lt;strong>real-time execution&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Voice Control Tests&lt;/strong> → &lt;strong>Whisper AI handles speech recognition accurately&lt;/strong>, but &lt;strong>fast-spoken Cantonese can sometimes cause misinterpretation&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Vision-Based Recognition&lt;/strong> → Object detection is functional, but AI &lt;strong>responses could be more natural&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="-next-steps">🛠️ &lt;strong>Next Steps&lt;/strong>
+&lt;/h3>&lt;p>✅ &lt;strong>Add OCR (Optical Character Recognition) and QR Code Reading features&lt;/strong>&lt;br>
+✅ &lt;strong>Optimize code to improve execution speed and reduce latency&lt;/strong>&lt;br>
+✅ &lt;strong>Refine gesture recognition for more expressive interactions&lt;/strong>&lt;/p></description></item><item><title>[FYP] Evolution of AI-Powered Voice Interaction Robot</title><link>https://ash0lam.github.io/p/fyp-evolution-of-ai-powered-voice-interaction-robot/</link><pubDate>Fri, 15 Nov 2024 10:00:00 +0800</pubDate><guid>https://ash0lam.github.io/p/fyp-evolution-of-ai-powered-voice-interaction-robot/</guid><description>&lt;img src="https://ash0lam.github.io/p/fyp-evolution-of-ai-powered-voice-interaction-robot/cover.jpg" alt="Featured image of post [FYP] Evolution of AI-Powered Voice Interaction Robot" />&lt;h1 id="-evolution-of-ai-powered-voice-interaction-robot">🤖 Evolution of AI-Powered Voice Interaction Robot
+&lt;/h1>&lt;p>&lt;strong>From Telegram-based control to real-time WebSocket communication.&lt;/strong>&lt;/p>
+&lt;h2 id="-project-overview">&lt;strong>📌 Project Overview&lt;/strong>
+&lt;/h2>&lt;p>This &lt;strong>Final Year Project (FYP)&lt;/strong> focuses on developing an &lt;strong>AI-powered robotic assistant&lt;/strong> that enhances &lt;strong>human interaction through voice communication, real-time video processing, and physical actions&lt;/strong>.&lt;/p>
+&lt;p>Between &lt;strong>November 2024 and March 2025&lt;/strong>, the system underwent a significant evolution. Initially, the robot was controlled via a &lt;strong>Telegram bot&lt;/strong>, allowing users to send commands remotely through a chat interface. However, in its latest iteration, the system now uses &lt;strong>WebSocket communication&lt;/strong>, enabling real-time interactions between the &lt;strong>PC-based Python server and the robot&amp;rsquo;s Python client&lt;/strong>.&lt;/p>
+&lt;p>This transition has &lt;strong>greatly improved&lt;/strong> response time, system stability, and expanded the range of &lt;strong>possible interactions&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2 id="-system-evolution-november-2024-vs-march-2025">&lt;strong>🛠️ System Evolution: November 2024 vs. March 2025&lt;/strong>
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Feature&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>November 2024 (Telegram Bot Control)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>March 2025 (WebSocket Real-Time Communication)&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Control Method&lt;/strong>&lt;/td>
+&lt;td>Users controlled the robot via &lt;strong>Telegram chat commands&lt;/strong>&lt;/td>
+&lt;td>Users interact via &lt;strong>Flask-based web interface or speech&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Speech Processing&lt;/strong>&lt;/td>
+&lt;td>Whisper AI for STT, Azure Speech Services for TTS&lt;/td>
+&lt;td>Whisper AI for STT, Azure Speech Services for TTS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>AI Chatbot&lt;/strong>&lt;/td>
+&lt;td>GPT-3.5 via OpenAI API for simple conversations&lt;/td>
+&lt;td>&lt;strong>LangChain-based chatbot&lt;/strong> with &lt;strong>better context retention&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Video Streaming&lt;/strong>&lt;/td>
+&lt;td>Not available&lt;/td>
+&lt;td>&lt;strong>Real-time WebSocket video transmission from robot to PC&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Motion Control&lt;/strong>&lt;/td>
+&lt;td>Simple Telegram commands for pre-set movements&lt;/td>
+&lt;td>WebSocket-controlled &lt;strong>adaptive gesture interaction&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Cloud Dependency&lt;/strong>&lt;/td>
+&lt;td>Heavy reliance on Telegram servers &amp;amp; OpenAI API&lt;/td>
+&lt;td>Shift towards &lt;strong>local processing for improved privacy&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="-technical-implementation">&lt;strong>🔹 Technical Implementation&lt;/strong>
+&lt;/h2>&lt;h3 id="1-phase-1-telegram-bot-based-control-november-2024">&lt;strong>1️⃣ Phase 1: Telegram Bot-Based Control (November 2024)&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Users could &lt;strong>send commands&lt;/strong> via &lt;strong>Telegram&lt;/strong>, and the robot would respond.&lt;/li>
+&lt;li>&lt;strong>Predefined movement commands&lt;/strong> (e.g., &lt;code>/wave&lt;/code>, &lt;code>/move_forward&lt;/code>).&lt;/li>
+&lt;li>AI chatbot responses powered by &lt;strong>GPT-3.5 via OpenAI API&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Limitations:&lt;/strong> limited interaction capabilities, &lt;strong>no real-time vision processing&lt;/strong>.
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/5yfJXgtYdSA"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-phase-2-websocket-based-real-time-control-march-2025">&lt;strong>2️⃣ Phase 2: WebSocket-Based Real-Time Control (March 2025)&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Implemented &lt;strong>PC-based Flask server&lt;/strong> for &lt;strong>direct interaction with the robot&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>WebSocket replaced Telegram API&lt;/strong>, allowing &lt;strong>instant, bidirectional communication&lt;/strong>.&lt;/li>
+&lt;li>Users can now:
+&lt;ul>
+&lt;li>&lt;strong>Send text or voice commands&lt;/strong> via a Flask-based web UI.&lt;/li>
+&lt;li>&lt;strong>Receive real-time responses&lt;/strong> from the AI chatbot.&lt;/li>
+&lt;li>&lt;strong>Control the robot’s movements dynamically&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Stream live video from the robot’s camera&lt;/strong> for vision-based interactions.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Improvements:&lt;/strong> &lt;strong>better motion control&lt;/strong>, &lt;strong>real-time vision processing&lt;/strong>.
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/lH_ZV7MhqK0"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/0d2QBd-BcjE"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-system-architecture">&lt;strong>🔧 System Architecture&lt;/strong>
+&lt;/h2>&lt;h3 id="-hardware-components">&lt;strong>🏗️ Hardware Components&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>TonyPi Robot&lt;/strong> (Raspberry Pi-powered, motion-controlled)&lt;/li>
+&lt;li>&lt;strong>Bluetooth Microphone &amp;amp; Speaker&lt;/strong> for voice input/output&lt;/li>
+&lt;li>&lt;strong>Webcam Module&lt;/strong> for real-time vision analysis&lt;/li>
+&lt;li>&lt;strong>PC Server&lt;/strong> for AI processing, chatbot responses &amp;amp; WebSocket handling&lt;/li>
+&lt;/ul>
+&lt;h3 id="-software-stack">&lt;strong>🔌 Software Stack&lt;/strong>
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Component&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>November 2024 (Telegram-based)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>March 2025 (WebSocket-based)&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Speech Processing&lt;/strong>&lt;/td>
+&lt;td>Whisper AI, Azure Speech&lt;/td>
+&lt;td>Whisper AI, Azure Speech (optimized)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>AI Chatbot&lt;/strong>&lt;/td>
+&lt;td>OpenAI GPT-3.5&lt;/td>
+&lt;td>LangChain-based GPT AI&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Backend Server&lt;/strong>&lt;/td>
+&lt;td>Telegram Bot API&lt;/td>
+&lt;td>Flask + WebSocket&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Video Processing&lt;/strong>&lt;/td>
+&lt;td>Not available&lt;/td>
+&lt;td>WebSocket-based real-time streaming&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Motion Control&lt;/strong>&lt;/td>
+&lt;td>Predefined commands via Telegram&lt;/td>
+&lt;td>Dynamic, adaptive motion execution&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Cloud Integration&lt;/strong>&lt;/td>
+&lt;td>Fully cloud-reliant (OpenAI, Telegram)&lt;/td>
+&lt;td>Shift towards &lt;strong>local AI processing&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="-challenges--solutions">&lt;strong>⚠️ Challenges &amp;amp; Solutions&lt;/strong>
+&lt;/h2>&lt;h3 id="1-transitioning-from-telegram-to-websocket">&lt;strong>1️⃣ Transitioning from Telegram to WebSocket&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Challenge:&lt;/strong> Migrating from a &lt;strong>chat-based control system&lt;/strong> to &lt;strong>real-time communication&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Solution:&lt;/strong> Implemented &lt;strong>Flask &amp;amp; WebSocket&lt;/strong> for direct robot-PC interaction.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-improving-response-time">&lt;strong>2️⃣ Improving Response Time&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Challenge:&lt;/strong> Telegram API caused &lt;strong>delays of ~2-3 seconds&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Solution:&lt;/strong> WebSocket ensures &lt;strong>instant data transmission (&amp;lt;1 second latency)&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-adding-vision-based-capabilities">&lt;strong>3️⃣ Adding Vision-Based Capabilities&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Challenge:&lt;/strong> The Telegram bot &lt;strong>lacked live video processing&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Solution:&lt;/strong> Introduced &lt;strong>real-time camera streaming &amp;amp; AI-powered object recognition&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-reducing-cloud-dependency">&lt;strong>4️⃣ Reducing Cloud Dependency&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Challenge:&lt;/strong> Heavy reliance on OpenAI &amp;amp; Telegram API.&lt;/li>
+&lt;li>&lt;strong>Solution:&lt;/strong> Implemented &lt;strong>local AI processing for improved privacy &amp;amp; lower costs&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-next-steps">&lt;strong>🚀 Next Steps&lt;/strong>
+&lt;/h2>&lt;p>As the project progresses, our &lt;strong>main goals&lt;/strong> include:
+✅ &lt;strong>Further improving chatbot memory retention &amp;amp; real-world context awareness&lt;/strong>.&lt;br>
+✅ &lt;strong>Enhancing gesture-based interactions for more expressive robotic responses&lt;/strong>.&lt;br>
+✅ &lt;strong>Expanding object recognition capabilities using local AI models&lt;/strong>.&lt;br>
+✅ &lt;strong>Exploring fully autonomous AI interactions without external cloud dependency&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2 id="-conclusion">&lt;strong>🎬 Conclusion&lt;/strong>
+&lt;/h2>&lt;p>The evolution from &lt;strong>Telegram-based interaction (November 2024)&lt;/strong> to a &lt;strong>WebSocket-powered real-time system (March 2025)&lt;/strong> represents a major &lt;strong>improvement in efficiency, scalability, and user experience&lt;/strong>.&lt;/p>
+&lt;p>By shifting from &lt;strong>chat-based delayed control&lt;/strong> to &lt;strong>real-time voice, vision, and motion-based AI interactions&lt;/strong>, this project moves closer to creating a &lt;strong>fully autonomous, AI-driven companion robot&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2 id="-related-technologies">&lt;strong>🔗 Related Technologies&lt;/strong>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Programming Languages:&lt;/strong> Python (Flask, OpenCV, WebSocket, LangChain)&lt;/li>
+&lt;li>&lt;strong>AI Services:&lt;/strong> OpenAI Whisper, GPT, Azure Speech &amp;amp; Vision&lt;/li>
+&lt;li>&lt;strong>Cloud &amp;amp; Backend:&lt;/strong> Flask API, Azure, WebSocket, GitHub for version control&lt;/li>
+&lt;li>&lt;strong>Hardware:&lt;/strong> Raspberry Pi (TonyPi), Camera Module, Bluetooth Mic &amp;amp; Speaker&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Building a Database-Driven Forum in Python</title><link>https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/</link><pubDate>Sat, 27 Apr 2024 14:53:00 +0800</pubDate><guid>https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/</guid><description>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/cover.jpg" alt="Featured image of post Building a Database-Driven Forum in Python" />&lt;h2 id="introduction">&lt;strong>Introduction&lt;/strong>
+&lt;/h2>&lt;p>During my second semester in the &lt;strong>Cloud Web Application Development&lt;/strong> course, I worked on a solo project to &lt;strong>re-implement a database-driven web application&lt;/strong> using &lt;strong>HTML, CSS, JavaScript, and Python&lt;/strong>. The goal was to choose an existing website concept and rewrite it in &lt;strong>Flask&lt;/strong>, integrating modern web technologies and best practices.&lt;/p>
+&lt;p>For my project, I chose to build a &lt;strong>forum-style website&lt;/strong>, inspired by LIHKG, where users can register, create posts, comment, and interact with each other. This was an exciting challenge that involved &lt;strong>full-stack web development&lt;/strong>, database integration, and security implementation.&lt;/p>
+&lt;hr>
+&lt;h2 id="objectives">&lt;strong>Objectives&lt;/strong>
+&lt;/h2>&lt;p>The project had the following key objectives:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Reimplement a database-driven website&lt;/strong> using Python (Flask).&lt;/li>
+&lt;li>&lt;strong>Redesign the UI&lt;/strong> using &lt;strong>Bootstrap&lt;/strong> to enhance responsiveness and usability.&lt;/li>
+&lt;li>&lt;strong>Implement user authentication&lt;/strong>, including login, registration, and session management.&lt;/li>
+&lt;li>&lt;strong>Validate all input fields&lt;/strong> to prevent invalid or malicious user input.&lt;/li>
+&lt;li>&lt;strong>Integrate a relational database&lt;/strong> (PostgreSQL) to store user accounts, posts, and comments.&lt;/li>
+&lt;li>&lt;strong>Create an admin panel&lt;/strong> to allow administrators to manage posts and comments efficiently.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="project-features">&lt;strong>Project Features&lt;/strong>
+&lt;/h2>&lt;h3 id="-user-authentication">🔹 &lt;strong>User Authentication&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Users can register, log in, and log out securely.&lt;/li>
+&lt;li>Passwords are &lt;strong>hashed&lt;/strong> using &lt;strong>Werkzeug&lt;/strong> for security.&lt;/li>
+&lt;li>A &amp;ldquo;Forgot Password&amp;rdquo; feature allows users to reset their credentials.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1.jpg"
+width="1087"
+height="950"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_8cced70e8a34b411.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_328f2c06bedc906e.jpg 1024w"
+loading="lazy"
+alt="Login Page"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="274px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-posting-and-commenting-system">🔹 &lt;strong>Posting and Commenting System&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Registered users can create &lt;strong>new posts&lt;/strong> and comment on existing posts.&lt;/li>
+&lt;li>Posts and comments are stored in &lt;strong>PostgreSQL&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Pagination&lt;/strong> is implemented for better browsing of content.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Create Post Page"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-bootstrap-ui-redesign">🔹 &lt;strong>Bootstrap UI Redesign&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>The interface follows a &lt;strong>modern Bootstrap style&lt;/strong>, making it &lt;strong>mobile-friendly&lt;/strong> and visually appealing.&lt;/li>
+&lt;li>The layout is structured using a &lt;strong>sidebar navigation panel&lt;/strong> for quick access to different sections.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2.jpg"
+width="1054"
+height="953"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2_hu_1b4c4f5d178ba22d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2_hu_a116a429c9089c20.jpg 1024w"
+loading="lazy"
+alt="Homepage with Sidebar"
+class="gallery-image"
+data-flex-grow="110"
+data-flex-basis="265px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-admin-panel">🔹 &lt;strong>Admin Panel&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Admin users have the ability to &lt;strong>delete or edit posts and comments&lt;/strong>.&lt;/li>
+&lt;li>An easy-to-use interface ensures efficient &lt;strong>content moderation&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6.jpg"
+width="1080"
+height="933"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6_hu_5c0e08bfbf97ca2d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6_hu_d9f4cbb900bafddd.jpg 1024w"
+loading="lazy"
+alt="Admin Panel"
+class="gallery-image"
+data-flex-grow="115"
+data-flex-basis="277px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-emoji-support">🔹 &lt;strong>Emoji Support&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Users can insert &lt;strong>emoji reactions&lt;/strong> into their posts and comments using a &lt;strong>custom emoji picker&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Emoji Picker"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-security-measures">🔹 &lt;strong>Security Measures&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Form inputs are &lt;strong>validated&lt;/strong> using Flask-WTF to prevent SQL injection and XSS attacks.&lt;/li>
+&lt;li>Authentication is &lt;strong>session-based&lt;/strong>, ensuring user sessions remain secure.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="challenges-faced">&lt;strong>Challenges Faced&lt;/strong>
+&lt;/h2>&lt;p>While developing this project, I encountered a few challenges:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Handling Database Relationships&lt;/strong> – Setting up &lt;strong>one-to-many relationships&lt;/strong> between users, posts, and comments required careful database structuring.&lt;/li>
+&lt;li>&lt;strong>Customizing Bootstrap Components&lt;/strong> – Ensuring the website remained &lt;strong>responsive and visually appealing&lt;/strong> across all devices.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="technologies-used">&lt;strong>Technologies Used&lt;/strong>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Backend&lt;/strong>: Flask (Python)&lt;/li>
+&lt;li>&lt;strong>Database&lt;/strong>: PostgreSQL, SQLAlchemy&lt;/li>
+&lt;li>&lt;strong>Frontend&lt;/strong>: HTML, CSS, Bootstrap, JavaScript&lt;/li>
+&lt;li>&lt;strong>Security&lt;/strong>: Flask-Login, Flask-WTF (CSRF protection)&lt;/li>
+&lt;li>&lt;strong>Deployment&lt;/strong>: Flask development server (future plans for cloud deployment)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusion">&lt;strong>Conclusion&lt;/strong>
+&lt;/h2>&lt;p>This project was a &lt;strong>fantastic learning experience&lt;/strong> in full-stack web development. It allowed me to apply my knowledge of &lt;strong>Flask, databases, security, and front-end design&lt;/strong> to build a functional and scalable web application.&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration">&lt;strong>Demonstration&lt;/strong>
+&lt;/h2>&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/XMpf9LAPwas"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;p>This project has greatly improved my skills and confidence in &lt;strong>developing cloud-based web applications&lt;/strong>. I&amp;rsquo;m excited to take these learnings into future projects and professional opportunities!&lt;/p>
+&lt;h2 id="screenshots">&lt;strong>Screenshots&lt;/strong>
+&lt;/h2>&lt;p>Here are some screenshots of the project:&lt;/p>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1.jpg"
+width="1087"
+height="950"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_8cced70e8a34b411.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_328f2c06bedc906e.jpg 1024w"
+loading="lazy"
+alt="Login Page"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="274px"
+> &lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Create Post"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;br>
+&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4.jpg"
+width="1117"
+height="1180"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4_hu_44a6aca6d8add50d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4_hu_850f3d18f35aa3a9.jpg 1024w"
+loading="lazy"
+alt="Post View1"
+class="gallery-image"
+data-flex-grow="94"
+data-flex-basis="227px"
+> &lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5.jpg"
+width="1091"
+height="1174"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5_hu_d0f5de74818f53bb.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5_hu_b690d0733b6d32a9.jpg 1024w"
+loading="lazy"
+alt="Post View2"
+class="gallery-image"
+data-flex-grow="92"
+data-flex-basis="223px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>All screenshots are taken from my project and demonstrate various features.&lt;/em>&lt;/p>&lt;/blockquote></description></item></channel></rss>

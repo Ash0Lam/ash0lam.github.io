@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Forum on Omakase by Ash</title><link>https://ash0lam.github.io/tags/forum/</link><description>Recent content in Forum on Omakase by Ash</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 05:38:47 +0000</lastBuildDate><atom:link href="https://ash0lam.github.io/tags/forum/index.xml" rel="self" type="application/rss+xml"/><item><title>Building a Database-Driven Forum in Python</title><link>https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/</link><pubDate>Sat, 27 Apr 2024 14:53:00 +0800</pubDate><guid>https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/</guid><description>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/cover.jpg" alt="Featured image of post Building a Database-Driven Forum in Python" />&lt;h2 id="introduction">&lt;strong>Introduction&lt;/strong>
+&lt;/h2>&lt;p>During my second semester in the &lt;strong>Cloud Web Application Development&lt;/strong> course, I worked on a solo project to &lt;strong>re-implement a database-driven web application&lt;/strong> using &lt;strong>HTML, CSS, JavaScript, and Python&lt;/strong>. The goal was to choose an existing website concept and rewrite it in &lt;strong>Flask&lt;/strong>, integrating modern web technologies and best practices.&lt;/p>
+&lt;p>For my project, I chose to build a &lt;strong>forum-style website&lt;/strong>, inspired by LIHKG, where users can register, create posts, comment, and interact with each other. This was an exciting challenge that involved &lt;strong>full-stack web development&lt;/strong>, database integration, and security implementation.&lt;/p>
+&lt;hr>
+&lt;h2 id="objectives">&lt;strong>Objectives&lt;/strong>
+&lt;/h2>&lt;p>The project had the following key objectives:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Reimplement a database-driven website&lt;/strong> using Python (Flask).&lt;/li>
+&lt;li>&lt;strong>Redesign the UI&lt;/strong> using &lt;strong>Bootstrap&lt;/strong> to enhance responsiveness and usability.&lt;/li>
+&lt;li>&lt;strong>Implement user authentication&lt;/strong>, including login, registration, and session management.&lt;/li>
+&lt;li>&lt;strong>Validate all input fields&lt;/strong> to prevent invalid or malicious user input.&lt;/li>
+&lt;li>&lt;strong>Integrate a relational database&lt;/strong> (PostgreSQL) to store user accounts, posts, and comments.&lt;/li>
+&lt;li>&lt;strong>Create an admin panel&lt;/strong> to allow administrators to manage posts and comments efficiently.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="project-features">&lt;strong>Project Features&lt;/strong>
+&lt;/h2>&lt;h3 id="-user-authentication">🔹 &lt;strong>User Authentication&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Users can register, log in, and log out securely.&lt;/li>
+&lt;li>Passwords are &lt;strong>hashed&lt;/strong> using &lt;strong>Werkzeug&lt;/strong> for security.&lt;/li>
+&lt;li>A &amp;ldquo;Forgot Password&amp;rdquo; feature allows users to reset their credentials.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1.jpg"
+width="1087"
+height="950"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_8cced70e8a34b411.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_328f2c06bedc906e.jpg 1024w"
+loading="lazy"
+alt="Login Page"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="274px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-posting-and-commenting-system">🔹 &lt;strong>Posting and Commenting System&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Registered users can create &lt;strong>new posts&lt;/strong> and comment on existing posts.&lt;/li>
+&lt;li>Posts and comments are stored in &lt;strong>PostgreSQL&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Pagination&lt;/strong> is implemented for better browsing of content.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Create Post Page"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-bootstrap-ui-redesign">🔹 &lt;strong>Bootstrap UI Redesign&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>The interface follows a &lt;strong>modern Bootstrap style&lt;/strong>, making it &lt;strong>mobile-friendly&lt;/strong> and visually appealing.&lt;/li>
+&lt;li>The layout is structured using a &lt;strong>sidebar navigation panel&lt;/strong> for quick access to different sections.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2.jpg"
+width="1054"
+height="953"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2_hu_1b4c4f5d178ba22d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2_hu_a116a429c9089c20.jpg 1024w"
+loading="lazy"
+alt="Homepage with Sidebar"
+class="gallery-image"
+data-flex-grow="110"
+data-flex-basis="265px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-admin-panel">🔹 &lt;strong>Admin Panel&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Admin users have the ability to &lt;strong>delete or edit posts and comments&lt;/strong>.&lt;/li>
+&lt;li>An easy-to-use interface ensures efficient &lt;strong>content moderation&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6.jpg"
+width="1080"
+height="933"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6_hu_5c0e08bfbf97ca2d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6_hu_d9f4cbb900bafddd.jpg 1024w"
+loading="lazy"
+alt="Admin Panel"
+class="gallery-image"
+data-flex-grow="115"
+data-flex-basis="277px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-emoji-support">🔹 &lt;strong>Emoji Support&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Users can insert &lt;strong>emoji reactions&lt;/strong> into their posts and comments using a &lt;strong>custom emoji picker&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Emoji Picker"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-security-measures">🔹 &lt;strong>Security Measures&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Form inputs are &lt;strong>validated&lt;/strong> using Flask-WTF to prevent SQL injection and XSS attacks.&lt;/li>
+&lt;li>Authentication is &lt;strong>session-based&lt;/strong>, ensuring user sessions remain secure.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="challenges-faced">&lt;strong>Challenges Faced&lt;/strong>
+&lt;/h2>&lt;p>While developing this project, I encountered a few challenges:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Handling Database Relationships&lt;/strong> – Setting up &lt;strong>one-to-many relationships&lt;/strong> between users, posts, and comments required careful database structuring.&lt;/li>
+&lt;li>&lt;strong>Customizing Bootstrap Components&lt;/strong> – Ensuring the website remained &lt;strong>responsive and visually appealing&lt;/strong> across all devices.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="technologies-used">&lt;strong>Technologies Used&lt;/strong>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Backend&lt;/strong>: Flask (Python)&lt;/li>
+&lt;li>&lt;strong>Database&lt;/strong>: PostgreSQL, SQLAlchemy&lt;/li>
+&lt;li>&lt;strong>Frontend&lt;/strong>: HTML, CSS, Bootstrap, JavaScript&lt;/li>
+&lt;li>&lt;strong>Security&lt;/strong>: Flask-Login, Flask-WTF (CSRF protection)&lt;/li>
+&lt;li>&lt;strong>Deployment&lt;/strong>: Flask development server (future plans for cloud deployment)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusion">&lt;strong>Conclusion&lt;/strong>
+&lt;/h2>&lt;p>This project was a &lt;strong>fantastic learning experience&lt;/strong> in full-stack web development. It allowed me to apply my knowledge of &lt;strong>Flask, databases, security, and front-end design&lt;/strong> to build a functional and scalable web application.&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration">&lt;strong>Demonstration&lt;/strong>
+&lt;/h2>&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/XMpf9LAPwas"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;p>This project has greatly improved my skills and confidence in &lt;strong>developing cloud-based web applications&lt;/strong>. I&amp;rsquo;m excited to take these learnings into future projects and professional opportunities!&lt;/p>
+&lt;h2 id="screenshots">&lt;strong>Screenshots&lt;/strong>
+&lt;/h2>&lt;p>Here are some screenshots of the project:&lt;/p>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1.jpg"
+width="1087"
+height="950"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_8cced70e8a34b411.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_328f2c06bedc906e.jpg 1024w"
+loading="lazy"
+alt="Login Page"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="274px"
+> &lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Create Post"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;br>
+&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4.jpg"
+width="1117"
+height="1180"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4_hu_44a6aca6d8add50d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4_hu_850f3d18f35aa3a9.jpg 1024w"
+loading="lazy"
+alt="Post View1"
+class="gallery-image"
+data-flex-grow="94"
+data-flex-basis="227px"
+> &lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5.jpg"
+width="1091"
+height="1174"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5_hu_d0f5de74818f53bb.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5_hu_b690d0733b6d32a9.jpg 1024w"
+loading="lazy"
+alt="Post View2"
+class="gallery-image"
+data-flex-grow="92"
+data-flex-basis="223px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>All screenshots are taken from my project and demonstrate various features.&lt;/em>&lt;/p>&lt;/blockquote></description></item></channel></rss>

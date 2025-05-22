@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Omakase by Ash</title><link>https://ash0lam.github.io/tags/python/</link><description>Recent content in Python on Omakase by Ash</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 05:38:47 +0000</lastBuildDate><atom:link href="https://ash0lam.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Streamlining Outlook Email Templates with Outlook Template Bartender v1.2</title><link>https://ash0lam.github.io/p/streamlining-outlook-email-templates-with-outlook-template-bartender-v1.2/</link><pubDate>Sun, 23 Mar 2025 14:53:00 +0000</pubDate><guid>https://ash0lam.github.io/p/streamlining-outlook-email-templates-with-outlook-template-bartender-v1.2/</guid><description>&lt;img src="https://ash0lam.github.io/p/streamlining-outlook-email-templates-with-outlook-template-bartender-v1.2/cover.jpg" alt="Featured image of post Streamlining Outlook Email Templates with Outlook Template Bartender v1.2" />&lt;h2 id="introduction">&lt;strong>Introduction&lt;/strong>
+&lt;/h2>&lt;p>While working in corporate environments, I observed a recurring issue – many employees use outdated office computers, yet have to handle tons of Outlook emails daily. Opening Outlook templates often slows down the entire machine. Even when templates load, tasks like selecting recipients, manually editing placeholders, or reusing email formats become tedious and error-prone.&lt;/p>
+&lt;p>That&amp;rsquo;s when I thought: &lt;strong>why not create a lightweight, local desktop application, to help manage and automate repetitive Outlook email templates without bogging down the system?&lt;/strong>&lt;/p>
+&lt;p>Thus, &lt;strong>Outlook Template Bartender&lt;/strong> was born – designed as a privacy-respecting, fully offline assistant that &amp;ldquo;serves up&amp;rdquo; pre-made, dynamically customizable Outlook emails quickly and reliably, even on low-spec machines.&lt;/p>
+&lt;hr>
+&lt;h2 id="objectives">&lt;strong>Objectives&lt;/strong>
+&lt;/h2>&lt;p>The project was designed to solve:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Outlook lagging issues&lt;/strong> when handling repetitive templates or bulk emails.&lt;/li>
+&lt;li>&lt;strong>Simplifying repetitive email tasks&lt;/strong> via one-click template management.&lt;/li>
+&lt;li>&lt;strong>Variable replacement support&lt;/strong>, allowing users to insert placeholders like &lt;code>{receiver}&lt;/code>, &lt;code>{date}&lt;/code>, etc.&lt;/li>
+&lt;li>&lt;strong>Support for older office PCs&lt;/strong> – lightweight, no cloud dependency.&lt;/li>
+&lt;li>&lt;strong>Direct integration with Outlook&lt;/strong>, eliminating the need to manually find, edit, or copy templates.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="project-features">&lt;strong>Project Features&lt;/strong>
+&lt;/h2>&lt;h3 id="-template-management-by-event-type">🔹 &lt;strong>Template Management by Event Type&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Organize email templates based on event categories.&lt;/li>
+&lt;li>Quickly search and filter templates by name or content.&lt;/li>
+&lt;li>Tag system for better content classification.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-quick-html-email-editing">🔹 &lt;strong>Quick HTML Email Editing&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Copy any existing Outlook email → paste into built-in &lt;strong>HTML editor&lt;/strong>.&lt;/li>
+&lt;li>Keeps &lt;strong>exact&lt;/strong> HTML structure intact, preserving tables, colors, and formatting.&lt;/li>
+&lt;li>Conveniently modify, insert variables, and preview.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-dynamic-variable-insertion">🔹 &lt;strong>Dynamic Variable Insertion&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Easily define placeholders like &lt;code>{receiver}&lt;/code>, &lt;code>{project_name}&lt;/code>, etc.&lt;/li>
+&lt;li>Auto-populate variables before sending email.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-direct-outlook-integration">🔹 &lt;strong>Direct Outlook Integration&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Generate Outlook draft emails with proper formatting and inline images.&lt;/li>
+&lt;li>Supports &lt;strong>multiple Outlook accounts&lt;/strong> – select sender on the fly.&lt;/li>
+&lt;li>&lt;strong>NEW in v1.2&lt;/strong>: Signature management options (default/custom/none).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-offline-privacy-first-approach">🔹 &lt;strong>Offline, Privacy-First Approach&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Local SQLite storage – &lt;strong>no cloud dependency&lt;/strong>.&lt;/li>
+&lt;li>No external API calls – all processing happens on your machine.&lt;/li>
+&lt;li>&lt;strong>Extremely resource-friendly&lt;/strong>: Core app uses only ~25MB RAM, with HTML editor loading only when needed.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="what">&lt;strong>What&amp;rsquo;s New in Version 1.2&lt;/strong>
+&lt;/h2>&lt;h3 id="-perfect-html-preservation">🔹 &lt;strong>Perfect HTML Preservation&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Enhanced HTML handling ensures that complex table structures, colors, and formatting are preserved exactly as in the original.&lt;/li>
+&lt;li>Perfect for financial reports, status updates, and other data-heavy emails.&lt;/li>
+&lt;/ul>
+&lt;h3 id="-signature-options">🔹 &lt;strong>Signature Options&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Choose between using default Outlook signature, a specific custom signature, or no signature at all.&lt;/li>
+&lt;li>Set different signature preferences for different types of emails.&lt;/li>
+&lt;/ul>
+&lt;h3 id="-resource-optimization">🔹 &lt;strong>Resource Optimization&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Core application uses only ~25MB of RAM.&lt;/li>
+&lt;li>HTML editor loads on-demand (~49MB additional) and releases resources after use.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="challenges-faced">&lt;strong>Challenges Faced&lt;/strong>
+&lt;/h2>&lt;ol>
+&lt;li>&lt;strong>Handling HTML Formatting Preservation&lt;/strong> – Ensuring that copy-pasted Outlook emails retain their exact formatting in the built-in editor.&lt;/li>
+&lt;li>&lt;strong>Reliable Outlook COM Integration&lt;/strong> – Interfacing Python scripts with Outlook to accurately select sender accounts and embed images.&lt;/li>
+&lt;li>&lt;strong>Optimizing UI Responsiveness&lt;/strong> – Ensuring the app runs smoothly on outdated hardware.&lt;/li>
+&lt;li>&lt;strong>Smart @Mentions Processing&lt;/strong> – Implementing HTML-aware parsing to properly convert email variables to display names.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="technologies-used">&lt;strong>Technologies Used&lt;/strong>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Backend &amp;amp; UI&lt;/strong>: Python (Tkinter)&lt;/li>
+&lt;li>&lt;strong>Database&lt;/strong>: SQLite&lt;/li>
+&lt;li>&lt;strong>Email Integration&lt;/strong>: win32com for Outlook&lt;/li>
+&lt;li>&lt;strong>HTML Editing&lt;/strong>: CKEditor embedded via pywebview&lt;/li>
+&lt;li>&lt;strong>Supporting Libraries&lt;/strong>: psutil, pywebview, pywin32, pillow, re (for regex patterns)&lt;/li>
+&lt;li>&lt;strong>Development Approach&lt;/strong>: Human-AI collaboration with Claude &amp;amp; GPT-4 AI assistants generating code based on my ideas and requirements&lt;/li>
+&lt;/ul>
+&lt;p>This project represents a modern development approach where I focused on the concept, requirements gathering, and testing, while leveraging AI assistants to help with code generation. This allowed rapid development while ensuring the tool precisely addressed the real-world needs I identified.&lt;/p>
+&lt;hr>
+&lt;h2 id="conclusion">&lt;strong>Conclusion&lt;/strong>
+&lt;/h2>&lt;p>With version 1.2, &lt;strong>Outlook Template Bartender&lt;/strong> has become even more powerful while maintaining its lightweight footprint. Improved HTML handling ensures perfectly preserved formatting.&lt;/p>
+&lt;p>This project continues to address the real-world pain points of handling repetitive emails in sluggish Outlook environments. By combining simplicity, speed, and privacy, it aims to assist office workers (especially those stuck with older machines) in managing emails effortlessly.&lt;/p>
+&lt;p>It remains a tool that fills the gap left by more complex (and sometimes expensive/cloud-based) solutions, offering something lightweight yet powerful.&lt;/p>
+&lt;hr>
+&lt;h2 id="demo-showcase">&lt;strong>Demo Showcase&lt;/strong>
+&lt;/h2>&lt;p>📹 &lt;strong>Demo Video (v1.0)&lt;/strong>:&lt;/p>
+&lt;div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 16/9;">
+&lt;iframe src="https://drive.google.com/file/d/1dkm8oZd1LPuqtHgKXA8hEbDoZ9AvP9I_/preview"
+width="100%" height="100%"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="repository">&lt;strong>Repository&lt;/strong>
+&lt;/h2>&lt;p>You can check out the project here:&lt;br>
+&lt;a class="link" href="https://github.com/Ash0Lam/OutlookTemplateBartender" target="_blank" rel="noopener"
+>GitHub - Outlook Template Bartender&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>All screenshots and code are from my original project.&lt;/em>&lt;/p>&lt;/blockquote></description></item><item><title>Building a Database-Driven Forum in Python</title><link>https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/</link><pubDate>Sat, 27 Apr 2024 14:53:00 +0800</pubDate><guid>https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/</guid><description>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/cover.jpg" alt="Featured image of post Building a Database-Driven Forum in Python" />&lt;h2 id="introduction">&lt;strong>Introduction&lt;/strong>
+&lt;/h2>&lt;p>During my second semester in the &lt;strong>Cloud Web Application Development&lt;/strong> course, I worked on a solo project to &lt;strong>re-implement a database-driven web application&lt;/strong> using &lt;strong>HTML, CSS, JavaScript, and Python&lt;/strong>. The goal was to choose an existing website concept and rewrite it in &lt;strong>Flask&lt;/strong>, integrating modern web technologies and best practices.&lt;/p>
+&lt;p>For my project, I chose to build a &lt;strong>forum-style website&lt;/strong>, inspired by LIHKG, where users can register, create posts, comment, and interact with each other. This was an exciting challenge that involved &lt;strong>full-stack web development&lt;/strong>, database integration, and security implementation.&lt;/p>
+&lt;hr>
+&lt;h2 id="objectives">&lt;strong>Objectives&lt;/strong>
+&lt;/h2>&lt;p>The project had the following key objectives:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Reimplement a database-driven website&lt;/strong> using Python (Flask).&lt;/li>
+&lt;li>&lt;strong>Redesign the UI&lt;/strong> using &lt;strong>Bootstrap&lt;/strong> to enhance responsiveness and usability.&lt;/li>
+&lt;li>&lt;strong>Implement user authentication&lt;/strong>, including login, registration, and session management.&lt;/li>
+&lt;li>&lt;strong>Validate all input fields&lt;/strong> to prevent invalid or malicious user input.&lt;/li>
+&lt;li>&lt;strong>Integrate a relational database&lt;/strong> (PostgreSQL) to store user accounts, posts, and comments.&lt;/li>
+&lt;li>&lt;strong>Create an admin panel&lt;/strong> to allow administrators to manage posts and comments efficiently.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="project-features">&lt;strong>Project Features&lt;/strong>
+&lt;/h2>&lt;h3 id="-user-authentication">🔹 &lt;strong>User Authentication&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Users can register, log in, and log out securely.&lt;/li>
+&lt;li>Passwords are &lt;strong>hashed&lt;/strong> using &lt;strong>Werkzeug&lt;/strong> for security.&lt;/li>
+&lt;li>A &amp;ldquo;Forgot Password&amp;rdquo; feature allows users to reset their credentials.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1.jpg"
+width="1087"
+height="950"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_8cced70e8a34b411.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_328f2c06bedc906e.jpg 1024w"
+loading="lazy"
+alt="Login Page"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="274px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-posting-and-commenting-system">🔹 &lt;strong>Posting and Commenting System&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Registered users can create &lt;strong>new posts&lt;/strong> and comment on existing posts.&lt;/li>
+&lt;li>Posts and comments are stored in &lt;strong>PostgreSQL&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Pagination&lt;/strong> is implemented for better browsing of content.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Create Post Page"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-bootstrap-ui-redesign">🔹 &lt;strong>Bootstrap UI Redesign&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>The interface follows a &lt;strong>modern Bootstrap style&lt;/strong>, making it &lt;strong>mobile-friendly&lt;/strong> and visually appealing.&lt;/li>
+&lt;li>The layout is structured using a &lt;strong>sidebar navigation panel&lt;/strong> for quick access to different sections.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2.jpg"
+width="1054"
+height="953"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2_hu_1b4c4f5d178ba22d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A2_hu_a116a429c9089c20.jpg 1024w"
+loading="lazy"
+alt="Homepage with Sidebar"
+class="gallery-image"
+data-flex-grow="110"
+data-flex-basis="265px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-admin-panel">🔹 &lt;strong>Admin Panel&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Admin users have the ability to &lt;strong>delete or edit posts and comments&lt;/strong>.&lt;/li>
+&lt;li>An easy-to-use interface ensures efficient &lt;strong>content moderation&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6.jpg"
+width="1080"
+height="933"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6_hu_5c0e08bfbf97ca2d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A6_hu_d9f4cbb900bafddd.jpg 1024w"
+loading="lazy"
+alt="Admin Panel"
+class="gallery-image"
+data-flex-grow="115"
+data-flex-basis="277px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-emoji-support">🔹 &lt;strong>Emoji Support&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Users can insert &lt;strong>emoji reactions&lt;/strong> into their posts and comments using a &lt;strong>custom emoji picker&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Emoji Picker"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-security-measures">🔹 &lt;strong>Security Measures&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Form inputs are &lt;strong>validated&lt;/strong> using Flask-WTF to prevent SQL injection and XSS attacks.&lt;/li>
+&lt;li>Authentication is &lt;strong>session-based&lt;/strong>, ensuring user sessions remain secure.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="challenges-faced">&lt;strong>Challenges Faced&lt;/strong>
+&lt;/h2>&lt;p>While developing this project, I encountered a few challenges:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Handling Database Relationships&lt;/strong> – Setting up &lt;strong>one-to-many relationships&lt;/strong> between users, posts, and comments required careful database structuring.&lt;/li>
+&lt;li>&lt;strong>Customizing Bootstrap Components&lt;/strong> – Ensuring the website remained &lt;strong>responsive and visually appealing&lt;/strong> across all devices.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="technologies-used">&lt;strong>Technologies Used&lt;/strong>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Backend&lt;/strong>: Flask (Python)&lt;/li>
+&lt;li>&lt;strong>Database&lt;/strong>: PostgreSQL, SQLAlchemy&lt;/li>
+&lt;li>&lt;strong>Frontend&lt;/strong>: HTML, CSS, Bootstrap, JavaScript&lt;/li>
+&lt;li>&lt;strong>Security&lt;/strong>: Flask-Login, Flask-WTF (CSRF protection)&lt;/li>
+&lt;li>&lt;strong>Deployment&lt;/strong>: Flask development server (future plans for cloud deployment)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusion">&lt;strong>Conclusion&lt;/strong>
+&lt;/h2>&lt;p>This project was a &lt;strong>fantastic learning experience&lt;/strong> in full-stack web development. It allowed me to apply my knowledge of &lt;strong>Flask, databases, security, and front-end design&lt;/strong> to build a functional and scalable web application.&lt;/p>
+&lt;hr>
+&lt;h2 id="demonstration">&lt;strong>Demonstration&lt;/strong>
+&lt;/h2>&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/XMpf9LAPwas"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;hr>
+&lt;p>This project has greatly improved my skills and confidence in &lt;strong>developing cloud-based web applications&lt;/strong>. I&amp;rsquo;m excited to take these learnings into future projects and professional opportunities!&lt;/p>
+&lt;h2 id="screenshots">&lt;strong>Screenshots&lt;/strong>
+&lt;/h2>&lt;p>Here are some screenshots of the project:&lt;/p>
+&lt;p>&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1.jpg"
+width="1087"
+height="950"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_8cced70e8a34b411.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A1_hu_328f2c06bedc906e.jpg 1024w"
+loading="lazy"
+alt="Login Page"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="274px"
+> &lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3.jpg"
+width="1052"
+height="957"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_33314c159d88a89c.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A3_hu_5923cf1fa306c47f.jpg 1024w"
+loading="lazy"
+alt="Create Post"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="263px"
+>&lt;br>
+&lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4.jpg"
+width="1117"
+height="1180"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4_hu_44a6aca6d8add50d.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A4_hu_850f3d18f35aa3a9.jpg 1024w"
+loading="lazy"
+alt="Post View1"
+class="gallery-image"
+data-flex-grow="94"
+data-flex-basis="227px"
+> &lt;img src="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5.jpg"
+width="1091"
+height="1174"
+srcset="https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5_hu_d0f5de74818f53bb.jpg 480w, https://ash0lam.github.io/p/building-a-database-driven-forum-in-python/A5_hu_b690d0733b6d32a9.jpg 1024w"
+loading="lazy"
+alt="Post View2"
+class="gallery-image"
+data-flex-grow="92"
+data-flex-basis="223px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>All screenshots are taken from my project and demonstrate various features.&lt;/em>&lt;/p>&lt;/blockquote></description></item></channel></rss>

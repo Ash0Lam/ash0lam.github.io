@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Omakase by Ash</title><link>https://ash0lam.github.io/page/</link><description>Recent content in Pages on Omakase by Ash</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 05:38:47 +0000</lastBuildDate><atom:link href="https://ash0lam.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://ash0lam.github.io/about-me/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://ash0lam.github.io/about-me/</guid><description>&lt;h1 id="-hi-im-ash">👋 Hi, I&amp;rsquo;m Ash!
+&lt;/h1>&lt;p>I&amp;rsquo;m passionate about applying &lt;strong>AI and automation&lt;/strong> to solve real-world problems. I enjoy building &lt;strong>interactive, user-focused systems&lt;/strong> that make technology more intuitive, efficient, and accessible. Whether it&amp;rsquo;s streamlining daily tasks or enabling natural interaction with machines, I aim to create tools that are both &lt;strong>practical and impactful&lt;/strong>.&lt;/p>
+&lt;h2 id="-what-drives-me">🎯 What Drives Me
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>AI as a tool for usability&lt;/strong> – I believe AI should simplify, not complicate. I enjoy exploring how AI can be made approachable and useful in daily workflows.&lt;/li>
+&lt;li>&lt;strong>Automation for productivity&lt;/strong> – I like building tools that eliminate repetitive tasks and enhance efficiency — especially in environments where resources are limited.&lt;/li>
+&lt;li>&lt;strong>Interaction &amp;amp; experience&lt;/strong> – I’m fascinated by how people engage with technology, whether through voice, vision, or responsive systems.&lt;/li>
+&lt;/ul>
+&lt;h2 id="-projects-from-school">🛠️ Projects from School
+&lt;/h2>&lt;h3 id="ai-powered-interactive-robot-fyp">&lt;strong>AI-Powered Interactive Robot (FYP)&lt;/strong>
+&lt;/h3>&lt;p>My Final Year Project focused on creating a robot capable of &lt;strong>speech-based interaction, computer vision, and real-time control&lt;/strong>.&lt;/p>
+&lt;ul>
+&lt;li>Evolved from a &lt;strong>Telegram bot control system&lt;/strong> to a &lt;strong>WebSocket-based voice interface&lt;/strong>.&lt;/li>
+&lt;li>Used &lt;strong>Whisper, Azure Speech&lt;/strong>, and &lt;strong>GPT chatbot logic&lt;/strong> to support multilingual and real-time communication.&lt;/li>
+&lt;li>Reinforced my passion for combining AI with responsive, interactive systems.&lt;/li>
+&lt;/ul>
+&lt;h3 id="python-based-forum-system">&lt;strong>Python-Based Forum System&lt;/strong>
+&lt;/h3>&lt;p>As part of a web application development course, I built a &lt;strong>full-stack forum system&lt;/strong> using Python and SQLite.&lt;/p>
+&lt;ul>
+&lt;li>Included user authentication, post/thread management, and simple admin controls.&lt;/li>
+&lt;li>Helped strengthen my backend fundamentals and database handling skills.&lt;/li>
+&lt;/ul>
+&lt;h2 id="-independent-project-from-work">💡 Independent Project from Work
+&lt;/h2>&lt;h3 id="outlook-template-bartender">&lt;strong>Outlook Template Bartender&lt;/strong>
+&lt;/h3>&lt;p>While working in a corporate environment, I noticed how many colleagues struggled with slow Outlook performance when reusing email templates — especially on older machines. That sparked the idea for this tool.&lt;/p>
+&lt;p>&lt;strong>Outlook Template Bartender&lt;/strong> is a lightweight, offline desktop app that helps users quickly manage and send templated Outlook emails with dynamic variables.&lt;/p>
+&lt;ul>
+&lt;li>Built with &lt;strong>Python + Tkinter&lt;/strong>, with &lt;strong>HTML editing via pywebview and CKEditor&lt;/strong>.&lt;/li>
+&lt;li>Integrated &lt;strong>Outlook COM automation&lt;/strong>, variable placeholders, and account selection.&lt;/li>
+&lt;li>Designed for &lt;strong>low-resource environments&lt;/strong>, respecting user privacy and minimizing system load.&lt;/li>
+&lt;/ul>
+&lt;p>This project reflects my mindset: &lt;strong>see a problem → build a solution&lt;/strong>.&lt;/p>
+&lt;h2 id="-skills--tools">🔧 Skills &amp;amp; Tools
+&lt;/h2>&lt;p>&lt;strong>AI &amp;amp; NLP&lt;/strong>: Whisper, Azure Speech, GPT chatbots&lt;br>
+&lt;strong>Backend&lt;/strong>: Python, Flask, SQLite, WebSockets&lt;br>
+&lt;strong>Frontend/UI&lt;/strong>: Tkinter, pywebview, CKEditor&lt;br>
+&lt;strong>Automation&lt;/strong>: Outlook COM scripting, task optimization tools&lt;br>
+&lt;strong>Approach&lt;/strong>: AI-assisted development, rapid prototyping, real-world problem solving&lt;/p>
+&lt;h2 id="-whats-next">🚀 What’s Next?
+&lt;/h2>&lt;p>I’m currently exploring more ways to apply AI in automation, developer tools, and interactive systems.&lt;br>
+My goal is to work in a space where I can &lt;strong>create, experiment, and grow&lt;/strong>, building solutions that make a difference in how people interact with technology.&lt;/p>
+&lt;h2 id="-connect-with-me">🌐 Connect With Me
+&lt;/h2>&lt;p>📧 &lt;strong>Email&lt;/strong>: &lt;a class="link" href="mailto:ash_work@outlook.com" >ash_work@outlook.com&lt;/a>&lt;br>
+🐱 &lt;strong>GitHub&lt;/strong>: &lt;a class="link" href="https://github.com/ash0lam" target="_blank" rel="noopener"
+>github.com/ash0lam&lt;/a>&lt;br>
+💼 &lt;strong>LinkedIn&lt;/strong>: &lt;a class="link" href="https://www.linkedin.com/in/ash0lam/" target="_blank" rel="noopener"
+>linkedin.com/in/ash0lam/&lt;/a>&lt;/p></description></item><item><title>Archives</title><link>https://ash0lam.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ash0lam.github.io/archives/</guid><description/></item></channel></rss>
